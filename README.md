@@ -1,7 +1,9 @@
 ** A.R.I.S.E 
-Sound Systems™
+Sound Systems™ **
 
-Stable: Numbers™ 3.5
+These source files were taken from the ARISE release .zip's. Additional .mk files have been added to help it build inline
+
+Current Version: Stable - Numbers™ 3.5
 
 Auditory Research in Sound Enhancement™
 
