@@ -1,0 +1,35 @@
+##                            ##
+#     ARISE Sound Systems™     #
+#                              #
+#          TweakProp           #
+#                              #
+#       @XDA Developers        #
+#                              #
+
+
+
+** DISCLAIMER_START **
+
+tweak.prop is no longer the currently supported avenue of handling build properties entries. The currently supported avenue is through setprop. This legacy /extras content is soley for the convenience of those that prefer tweak.prop over setprop.
+
+The flashable zips in this folder will execute the tweakprop script only for the tweak.prop inside the zip except for the zip named "tweakprop.zip". This zip is designed to be flashed with /sdcard/tweak.prop in place.
+
+** DISCLAIMER_END **
+
+
+
+A tweak.prop file placed in /sdcard or similar location can be utilized to patch your /system/build.prop with entries that it contains when flashing tweakprop.zip in recovery.
+
+tweakprop.zip is the script that backs up and patches /system/build.prop if an acceptable tweak.prop is found on your storage when flashed in recovery.
+
+tweak.prop presets will sometimes be included in this folder of the sound system zip and can be used as your /sdcard/tweak.prop or you can add its contents to your existing /sdcard/tweak.prop using a simple text editor.
+
+To use a tweak.prop preset as it is, simply copy the file to /sdcard, rename to tweak.prop to result with /sdcard/tweak.prop, and flash tweakprop.zip in recovery.
+
+This script does not just add entries to the bottom of /system/build.prop, although new and non-existent entries will be placed there. Existing /system/build.prop lines being modified by the contents of /sdcard/tweak.prop will result with those changes in its current line so this is a way to always ensure that duplicate or opposite entries will not be in your /system/build.prop.
+
+This is absolutely optional and the script can be bypassed by just manually adding entries from a tweak.prop preset to /system/build.prop using a text editor. Just know that bypassing the script will allow the possibility of duplicate or opposite entries to be written to /system/build.prop.
+
+Finally, if using tweak.prop, the most important thing to remember is to never have more than one file named tweak.prop anywhere on /data or /storage on your device and that a blank, empty line/space exists under the very last entry.
+
+tweakpropscript base courtesy of kl3 @XDA

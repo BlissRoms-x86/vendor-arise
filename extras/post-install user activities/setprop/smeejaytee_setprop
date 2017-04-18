@@ -1,0 +1,187 @@
+#!/system/bin/sh
+##                                      ##
+##          smeejaytee_setprop          ##
+##                                      ##
+##            XDA Developers            ##
+##                                      ##
+
+
+## Audio Offload ##
+
+#
+setprop audio.offload.pcm.enable true
+setprop audio.offload.pcm.16bit.enable true
+setprop audio.offload.pcm.24bit.enable true
+#Minimum duration for offload playback in secs
+setprop audio.offload.min.duration.secs 30
+setprop audio.offload.video true
+setprop audio.offload.track.enable true
+setprop audio.deep_buffer.media true
+setprop audio.offload.gapless.enabled true
+setprop audio.safx.pbe.enabled true
+setprop audio.offload.multiple.enabled true
+setprop tunnel.decode false
+setprop tunnel.audiovideo.decode false
+setprop lpa.decode false
+setprop lpa.releaselock false
+setprop lpa.use-stagefright false
+setprop tunnel.audio.encode false
+setprop persist.audio.vr.enable true
+setprop mpq.audio.decode 1
+#Enable multi channel aac through offload
+setprop audio.offload.multiaac.enable true
+#codecs:(PARSER_)AAC AC3 AMR_NB AMR_WB ASF AVI DTS FLV 3GP 3G2 MKV MP2PS MP2TS MP3 OGG QCP WAV FLAC AIFF APE
+setprop mm.enable.qcom_parser 1048575
+setprop persist.mm.enable.prefetch true
+setprop qcom.hw.aac.encoder true
+#
+
+## LeTv LeMax2 Dolby Atmos™ ##
+
+#
+setprop dmid 3067269873
+setprop audio.ds1.metainfo.key 273
+setprop dolby.audio.sink.info Headphones
+setprop dolby.ds.dialogenhancer.state on
+setprop dolby.ds.graphiceq.state off
+setprop dolby.ds.intelligenteq.preset ieq_open
+setprop dolby.ds.intelligenteq.state on
+setprop dolby.ds.profile.name Music
+setprop dolby.ds.state on
+setprop dolby.ds.virt.bluetooth on
+setprop dolby.ds.virt.hdmi on
+setprop dolby.ds.virt.headphone_port on
+setprop dolby.ds.virt.internal_speaker off
+setprop dolby.ds.virt.miracast on
+setprop dolby.ds.virt.usb on
+setprop dolby.ds.volumeleveler.state off
+setprop dolby.monospeaker false
+#
+
+## Lenovo™ K3 Note MaxxAudio™ ##
+
+#
+setprop ro.lenovo.soundeffect maxxaudio
+setprop audiofx.global.enable 1
+setprop audiofx.global.dts.enable 1
+setprop audiofx.eq.preset 10
+setprop audiofx.bass.enable 1
+setprop audiofx.bass.strength 90
+setprop audiofx.treble.enable 1
+setprop audiofx.treble.strength 80
+setprop audiofx.virtualizer.enable 1
+setprop audiofx.virtualizer.strength 60
+setprop audiofx.maxxvolume.enable 1
+setprop audiofx.maxxvolume.strength 80
+#
+
+## Asus™ ZenPad 8 Audio ##
+
+#
+setprop bluetooth.hfp.client 1
+
+## Add ro.asus.audio.feature for AudioWizard
+setprop ro.asus.audio.feature ar101
+setprop ro.asus.audiowizard.config 1
+#
+
+## Vivo™ XPlay 3S Audio ##
+
+#
+setprop persist.vivo.phone.hifi Have_hifi
+#
+
+## Huawei™ P9 Audio ##
+
+#
+setprop ro.config.hw_dts true
+setprop use.dts_m6 true
+setprop use.dts_m6_notify true
+setprop use.dts_eagle true
+#
+
+# LDAC audio support
+setprop ro.somc.ldac.audio.supported true
+# Force LDAC to run in Bluetooth
+setprop persist.service.ldac.enable 1
+setprop com.sonymobile.ldac_enabled true
+#
+
+## Miscellaneous Audio ##
+
+#
+setprop sys.keep_app_1 com.atmos
+setprop sys.keep_app_2 com.vipercn.viper4android_v2
+## Enable PowerAmp Hi-Res option ##
+setprop persist.hwc.mdpcomp.enable true
+# enable lpa.a2dp for better SQ over Bluetooth
+setprop persist.audio.voice.clarity on
+setprop ro.lge.voice.clarity 1
+setprop ro.config.media_vol_extend ON
+setprop ro.bluetooth.dun false
+setprop ro.bluetooth.emb_wp_mode true
+setprop ro.bluetooth.hfp.ver 1.6
+setprop ro.bluetooth.sap false
+setprop ro.qualcomm.bluetooth.ftp true
+setprop ro.qualcomm.bluetooth.hfp true
+setprop ro.qualcomm.bluetooth.hsp true
+setprop ro.qualcomm.bluetooth.map true
+setprop ro.qualcomm.bluetooth.nap true
+setprop ro.qualcomm.bluetooth.opp true
+setprop ro.qualcomm.bluetooth.pbap true
+#
+
+## htc audio enhancement ##
+
+# Buffer size in kbytes for compress offload playback
+setprop audio.offload.buffer.size.kb 16
+#setprop htc.audio.beats.state 1
+#setprop htc.audio.beats.config 1
+#setprop htc.audio.beats.support2v 1
+setprop htc.audio.lpa.a2dp 1
+setprop htc.audio.alc.enable 1
+# Choose one of the three options below:
+#htc.audio.effect.dolby 1
+setprop htc.audio.effect.jbl 4
+#htc.audio.effect.harman -1
+setprop htc.audio.effect.srs 1
+setprop ro.service.swiqi2.supported true
+setprop persist.service.swiqi2.enable 1
+#
+
+
+## Lenovo™ K4 Note Dolby™ Audio #
+
+#
+setprop LENOVO_DOLBY_SUPPORT   yes
+setprop ro.mtk_dolby_dap_support 1
+# Uncommented for HIFI output in PowerAMP
+setprop ro.lenovo.hifi_support true
+#
+
+
+## lg v10 Audio ##
+
+#
+setprop mm.enable.smoothstreaming true
+setprop ro.lge.audio_soundexception true
+#
+
+
+## Newskool Dolby FX #
+
+#
+setprop ro.mtk_audenh_support 1
+setprop ro.mtk_bessurround_support 1
+setprop ro.mtk_bt_support 1
+setprop ro.mtk_audio_tuning_tool_ver V2.2
+setprop ro.have_aacencode_feature 1
+#
+
+LOG_FILE=/data/local/tp_run.log;
+
+if [ -e /data/local/smeejay_setprop_run.log ]; then
+    rm /data/local/smeejaytee_setprop_run.log
+fi
+
+echo "smeejaytee_setproo has run successfully $(date +"%m-%d-%Y %H:%M:%S")" | tee -a $LOG_FILE;

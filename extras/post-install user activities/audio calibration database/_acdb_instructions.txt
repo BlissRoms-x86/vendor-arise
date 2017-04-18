@@ -1,0 +1,10 @@
+##                            ##
+#     ARISE Sound Systems™     #
+#                              #
+#  audio calibration database  #
+#                              #
+#       @XDA Developers        #
+
+
+
+The ARISE Sound Systems™ Audio Calibration Database flashable zip is for experimental and testing purposes only. Issues are certainly expected until a proper combination is found for a particular device. Commented /system/su.d/arisesound_acdb_setprop entries are provided to persist each file and combinations of different device files are certainly possible. Support for this component is very limited as devices react differently to audio calibration database data.

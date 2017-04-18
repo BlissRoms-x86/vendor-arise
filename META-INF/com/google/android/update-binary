@@ -1,0 +1,463 @@
+#!/sbin/sh
+#
+# ARISE Sound Systems™ @XDA Developers
+#
+# Numbers™
+
+mount /system
+
+OUTFD=/proc/self/fd/$2;
+ZIPFILE="$3";
+DIR=$(dirname "$ZIPFILE");
+ZIP=$3
+ARISE=/tmp/zip
+CAPP=customize/app
+CDRC=customize/drc/libdrc.so
+CETC=customize/etc
+CLIB=customize/lib
+CLIB64=customize/lib/lib64
+CL64=customize/lib64
+CSUD=customize/su.d
+CSUR=customize/surround_3mic_proc/libsurround_3mic_proc.so
+SYS=/system
+ADDON=/system/addon.d
+APP=/system/app
+BIN=/system/bin
+ETC=/system/etc
+LIB=/system/lib
+LIB64=/system/lib64
+LIBFX=/system/lib/soundfx
+SVLIB=/system/vendor/lib
+SVLIB64=/system/vendor/lib64
+VLIB=/vendor/lib
+VLIB64=/vendor/lib64
+VSFX=/vendor/lib/soundfx
+PAPP=/system/priv-app
+SUD=/system/su.d
+VEND=/vendor
+SVETC=/system/vendor/etc
+VETC=/vendor/etc
+DRC=/system/etc/drc
+SURSOU=/system/etc/surround_sound_3mic
+AEV=audio_effects_vendor.conf
+AOE=audio_offload_effects.conf
+INFO=/system/ARISE_Version.prop
+SETPROP=/data/media/0/arisesound_setprop
+PROP=arisesound_setprop
+V4A=ViPER4Arise
+V4APK=ViPER4Arise.apk
+V4AX86=libv4a_fx_jb_X86.so
+V4AARM=libv4a_fx_jb_NEON.so
+V4ALIB=libv4a_fx_ics.so
+V4AUTL86=x86/libV4AJniUtils.so
+V4AUTLARM=armeabi/libV4AJniUtils.so
+V4AUTL=/lib/arm/libV4AJniUtils.so
+JNI=libV4AJniUtils.so
+PROXY=libeffectproxy.so
+QCOM=libqcompostprocbundle.so
+VISL=libvisualizer.so
+DSEE=/system/lib/libsonydseehxwrapper.so
+DSEEHX=libsonydseehxwrapper.so
+DAPHAL=/system/vendor/lib/libhwdaphal.so
+HWDAP=libhwdaphal.so
+SRS=/system/vendor/lib/libsrsprocessing.so
+SRSPRO=libsrsprocessing.so
+HWI=/system/lib/libhuaweiprocessing.so
+HWIPRO=libhuaweiprocessing.so
+HTC=/system/etc/htc_audio_effects.conf
+CHTC=customize/etc/htc_audio_effects.conf
+API=$(cat /system/build.prop | grep "ro.build.version.sdk=" | dd bs=1 skip=21 count=2)
+NAME=$(cat /system/build.prop | grep "ro.product.name=")
+NAME=${NAME:16}
+ABI=$(grep_prop ro.product.cpu.abi | cut -c-3)
+ABILONG=$(grep_prop ro.product.cpu.abi)
+SPR=set_perm_recursive
+SP=set_perm
+CONF=audio_policy.conf
+AUDOUT=audio_output_policy.conf
+AUDXML=audio_policy_configuration.xml
+
+ui_print() { echo -e "ui_print $1\nui_print" > $OUTFD; }
+
+set_perm() {
+  uid=$1; gid=$2; mod=$3;
+  shift 3;
+  chown $uid.$gid $*; chown $uid:$gid $*;
+  chmod $mod $*;
+}
+
+set_perm_recursive() {
+  uid=$1; gid=$2; dmod=$3; fmod=$4;
+  shift 4;
+  until [ ! "$1" ]; do
+    chown -R $uid.$gid $1; chown -R $uid:$gid $1;
+    find "$1" -type d -exec chmod $dmod {} +;
+    find "$1" -type f -exec chmod $fmod {} +;
+    shift;
+  done;
+}
+
+if [ $NAME = angler ] || [ $NAME = bullhead ] || [ $NAME = flounder ]; then
+  mount /vendor
+fi
+
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print "                       Numbers™"
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+
+sleep 4
+
+rm -rf $PAPP/$V4A
+rm -rf $PAPP/ViPER4ARISE
+rm -rf $APP/ViPER4ARISE
+rm -rf $PAPP/ViPER4Android_FX_A4.x
+rm -rf $APP/ViPER4Android_FX_A4.x
+rm -rf $PAPP/Viper4Android
+rm -rf $APP/$V4A
+rm -rf $PAPP/V4A_FX
+rm -rf $PAPP/AudioFX
+rm -rf $APP/AudioFX
+rm -rf $PAPP/DSPManager
+rm -rf $APP/DSPManager
+rm -r $PAPP/$V4APK
+rm -r $APP/$V4APK
+rm -r $PAPP/ViPER4Android_FX_A4.x.apk
+rm -r $APP/ViPER4Android_FX_A4.x.apk
+rm -r $SUD/set_permissive_boot.sh
+rm -r $SUD/50TweakProp.sh
+rm -r $ADDON/blacklist
+rm -r $ADDON/50-rr.sh
+
+if [ -f $ETC/$CONF ]; then
+  sed -i '/deep_buffer {/,/}/d' $ETC/$CONF
+  sed -i '/raw {/,/}/d' $ETC/$CONF
+fi
+
+if [ -f $SVETC/$CONF ]; then
+  sed -i '/deep_buffer {/,/}/d' $SVETC/$CONF
+  sed -i '/raw {/,/}/d' $SVETC/$CONF
+fi
+
+if [ -f $VETC/$CONF ]; then
+  sed -i '/deep_buffer {/,/}/d' $VETC/$CONF
+  sed -i '/raw {/,/}/d' $VETC/$CONF
+fi
+
+if [ -f $SVETC/$AUDOUT ]; then
+  sed -i '/deep_buffer {/,/}/d' $SVETC/$AUDOUT
+fi
+
+if [ -f $VETC/$AUDOUT ]; then
+  sed -i '/deep_buffer {/,/}/d' $VETC/$AUDOUT
+fi
+
+if [ -f $ETC/$AUDXML ]; then
+  sed -i '/deep_buffer {/,/}/d' $ETC/$AUDXML
+  sed -i '/AUDIO_OUTPUT_FLAG_DEEP_BUFFER {/,/}/d' $ETC/$AUDXML
+fi
+
+mkdir $ARISE
+cd $ARISE
+unzip -o "$ZIP"
+
+CONF=audio_effects.conf
+
+cp -rf numbers/* /system
+
+if [ ! -f $SRS ]; then
+  cp $CLIB/$SRSPRO $LIB/$SRSPRO
+  $SP 0 0 0644 $LIB/$SRSPRO
+fi
+
+if [ ! -f $HWI ]; then
+  cp $CLIB/$HWIPRO $HWI
+  $SP 0 0 0644 $HWI
+fi
+
+if [ ! -f $DAPHAL ]; then
+  cp $CLIB/$HWDAP $LIB/$HWDAP
+  $SP 0 0 0644 $LIB/$HWDAP
+  if [ -e $LIB64 ]; then
+    cp $CLIB64/$HWDAP $LIB64/$HWDAP
+    $SP 0 0 0644 $LIB64/$HWDAP
+  fi
+fi
+
+if [ ! -f $DSEE ]; then
+  cp $CLIB/$DSEEHX $DSEE
+  $SP 0 0 0644 $DSEE
+  if [ -e $LIB64 ]; then
+    cp $CLIB64/$DSEEHX $LIB64/$DSEEHX
+    $SP 0 0 0644 $LIB64/$DSEEHX
+  fi
+fi
+
+if [ -e $LIB64 ]; then
+  mkdir -p $LIB64/soundfx
+  cp -rf customize/lib64/* /system/lib64
+  $SP 0 0 0755 $LIB64/soundfx
+  $SP 0 0 0644 $LIB64/soundfx/$PROXY
+  $SP 0 0 0644 $LIB64/soundfx/$QCOM
+  $SP 0 0 0644 $LIB64/soundfx/$VISL
+  $SP 0 0 0644 $LIB64/libiauxcodec.so
+  $SP 0 0 0644 $LIB64/libiauxmpeg.so
+  $SP 0 0 0644 $LIB64/libiauxmpeg_64.so
+  $SP 0 0 0644 $LIB64/libiauxsfx.so
+  $SP 0 0 0644 $LIB64/libiauxsfx_64.so
+  $SP 0 0 0644 $LIB64/libiauxusb.so
+  $SP 0 0 0644 $LIB64/libneutronmp.so
+  $SP 0 0 0644 $LIB64/libswsprocessing.so
+fi
+
+if [ ! -e $DRC ]; then
+  mkdir -p $DRC
+  cp -rf customize/etc/drc/* /system/etc/drc
+  $SPR 0 0 0755 0644 $DRC
+  if [ $NAME -eq angler ] || [ $NAME -eq bullhead ] || [ $NAME -eq flounder ]; then
+    cp $CDRC $VLIB/libdrc.so
+    $SP 0 2000 0644 $VLIB/libdrc.so
+  else
+    cp $CDRC $SVLIB/libdrc.so
+    $SP 0 2000 0644 $SVLIB/libdrc.so
+  fi
+fi
+
+if [ ! -e $SURSOU ]; then
+  mkdir -p $SURSOU
+  cp -rf customize/etc/surround_sound_3mic/* /system/etc/surround_sound_3mic
+  $SPR 0 0 0755 0644 $SURSOU
+  if [ $NAME = angler ] || [ $NAME = bullhead ] || [ $NAME = flounder ]; then
+    cp $CSUR $VLIB/libsurround_3mic_proc.so
+    $SP 0 2000 0644 $VLIB/libsurround_3mic_proc.so
+  else
+    cp $CSUR $SVLIB/libsurround_3mic_proc.so
+    $SP 0 2000 0644 $SVLIB/libsurround_3mic_proc.so
+  fi
+fi
+
+if [ -f $HTC ]; then
+  cp $CHTC $HTC
+  $SP 0 0 0644 $HTC
+fi
+
+if [ -f $ETC/$AEV ]; then
+  cp $CETC/$AEV $ETC/$AEV
+  $SP 0 0 0644 $ETC/$AEV
+fi
+
+if [ -f $SVETC/$AOE ]; then
+  cp $CETC/$AOE $SVETC/$AOE
+  $SP 0 2000 0644 $SVETC/$AOE
+fi
+
+if [ $API -ge 21 ]; then
+  mkdir -p $PAPP/$V4A/lib/arm
+  mkdir -p $PAPP/Esira
+  cp $CAPP/$V4APK $PAPP/$V4A/$V4APK
+  cp $CAPP/Esira.apk $PAPP/Esira/Esira.apk
+  cp $CSUD/arisesoundserver $SUD/arisesoundserver
+  if [ $ABI = x86 ] || [ $ABILONG = x86_64 ]; then
+    cp $CAPP/$V4AUTL86 $PAPP/$V4A$V4AUTL
+    cp $CAPP/$V4AUTL86 $LIB/$JNI
+    cp $CLIB/$V4A86 $LIBFX/$V4ALIB
+  else
+    cp $CAPP/$V4AUTLARM $PAPP/$V4A$V4AUTL
+    cp $CAPP/$V4AUTLARM $LIB/$JNI
+    cp $CLIB/$V4AARM $LIBFX/$V4ALIB
+  fi
+  if [ ! -f $SVETC/$CONF ]; then
+    mkdir -p $SVETC
+    cp $CETC/$CONF $SVETC/$CONF
+    $SP 0 2000 0755 $SVETC
+    $SP 0 2000 0644 $SVETC/$CONF
+  else
+    cp $CETC/$CONF $SVETC/$CONF
+    $SP 0 2000 0644 $SVETC/$CONF
+  fi
+  $SPR 0 0 0755 0644 $PAPP/$V4A
+  $SPR 0 0 0755 0644 $PAPP/Esira
+  $SPR 0 0 0755 0755 $SUD
+  $SP 0 0 0644 $LIB/$JNI
+  if [ $NAME = angler ] || [ $NAME = bullhead ] || [ $NAME = flounder ]; then
+    mkdir -p $VSFX
+    cp -rf customize/vendor/lib/* /vendor/lib
+    cp $CETC/$CONF $VETC/$CONF
+    $SPR 0 2000 0755 0644 $VSFX
+    $SP 0 2000 0644 $VLIB/libdts-eagle-shared.so
+    $SP 0 2000 0644 $VLIB/libeaglecore.so
+    $SP 0 2000 0644 $VETC/$CONF
+    if [ -e $LIB64 ]; then
+      mkdir -p $VLIB64/soundfx
+      cp -rf /customize/vendor/lib64/soundfx/* /vendor/lib64/soundfx
+      $SP 0 2000 0644 $VLIB64/soundfx/$PROXY
+      $SP 0 2000 0644 $VLIB64/soundfx/$QCOM
+      $SP 0 2000 0644 $VLIB64/soundfx/$VISL
+    fi
+  else
+    mkdir -p $SYS$VSFX
+    cp -rf customize/vendor/lib/* /system/vendor/lib
+    $SP 0 2000 0755 $SYS$VSFX
+    $SP 0 2000 0644 $SYS$VSFX/libqcbassboost.so
+      $SP 0 2000 0644 $SYS$VSFX/libqcreverb.so
+      $SP 0 2000 0644 $SYS$VSFX/libqcvirt.so
+    $SP 0 2000 0644 $SYS$VLIB/libdts-eagle-shared.so
+    $SP 0 2000 0644 $SYS$VLIB/libeaglecore.so
+    if [ -e $LIB64 ]; then
+      mkdir $SVLIB64/soundfx
+      cp -rf customize/vendor/lib64/* /system/vendor/lib64
+      $SP 0 2000 0755 $SVLIB64/soundfx
+      $SP 0 2000 0644 $SVLIB64/soundfx/libqcbassboost.so
+      $SP 0 2000 0644 $SVLIB64/soundfx/libqcreverb.so
+      $SP 0 2000 0644 $SVLIB64/soundfx/libqcvirt.so
+    fi
+  fi
+fi
+
+if [ $API -lt 21 ]; then
+  mkdir -p $SYS$VSFX
+  cp -rf customize/vendor/lib/* /system/vendor/lib
+  cp $CETC/$CONF /$SVETC/$CONF
+  cp $CAPP/$V4APK $APP/$V4APK
+  cp $CAPP/Esira.apk $APP/Esira.apk
+  if [ $ABI -eq x86 ]; then
+    cp $CAPP/$V4AUTL86 $LIB/$JNI
+    cp $CLIB/$V4A86 $LIBFX/$V4ALIB
+  else
+    cp $CAPP/$V4AUTLARM $LIB/$JNI
+    cp $CLIB/$V4AARM $LIBFX/$V4ALIB
+  fi
+  $SPR 0 2000 0755 0644 $SYS$VSFX
+  $SP 0 2000 0644 $SYS$VLIB/libdts-eagle-shared.so
+  $SP 0 2000 0644 $SYS$VLIB/libeaglecore.so
+  $SP 0 0 0644 $APP/$V4APK
+  $SP 0 2000 0644 $SVETC/$CONF
+fi
+
+if [ -e $SETPROP ]; then
+  cp $SETPROP $SUD/$PROP
+  $SP 0 0 0755 $SUD/$PROP
+fi
+
+$SPR 0 0 0755 0644 $ETC/audio
+$SPR 0 0 0755 0644 $ETC/dolby
+$SPR 0 0 0755 0644 $ETC/dts
+$SPR 0 0 0755 0644 $ETC/srs
+$SPR 0 0 0755 0644 $LIBFX
+$SPR 0 0 0755 0755 $SUD
+$SP 0 2000 0755 $BIN/dts_configurator
+$SP 0 2000 0755 $BIN/dts_hpx_service
+$SP 0 2000 0755 $BIN/dts_v
+$SP 0 0 0644 $INFO
+$SP 0 0 0644 $ETC/firmware/ice40.bin
+$SP 0 0 0644 $ETC/$CONF
+$SP 0 0 0644 $ETC/dts-decoder.lic
+$SP 0 0 0644 $ETC/dts-eagle.lic
+$SP 0 0 0644 $ETC/icesoundconfig.def
+$SP 0 0 0644 $ETC/icesoundpresets.def
+$SP 0 0 0644 $LIB/$JNI
+$SP 0 0 0644 $LIB/libaemagic.so
+$SP 0 0 0644 $LIB/libambisonic_audio_renderer.so
+$SP 0 0 0644 $LIB/libaptX-1.0.0-rel-Android21-ARMv7A.so
+$SP 0 0 0644 $LIB/libauaudioutils.so
+$SP 0 0 0644 $LIB/libaudsd2pcm.so
+$SP 0 0 0644 $LIB/libauogg.so
+$SP 0 0 0644 $LIB/libausndfile.so
+$SP 0 0 0644 $LIB/libausoxr.so
+$SP 0 0 0644 $LIB/libautaglib.so
+$SP 0 0 0644 $LIB/libauusb.so
+$SP 0 0 0644 $LIB/libauvorbis.so
+$SP 0 0 0644 $LIB/libavcodec-57.so
+$SP 0 0 0644 $LIB/libavformat-57.so
+$SP 0 0 0644 $LIB/libavutil-55.so
+$SP 0 0 0644 $LIB/libcmxearfx.so
+$SP 0 0 0644 $LIB/libdlbdapstorage.so
+$SP 0 0 0644 $LIB/libDoreso.so
+$SP 0 0 0644 $LIB/libdts-dcc-jni-v2.so
+$SP 0 0 0644 $LIB/libdts.so
+$SP 0 0 0644 $LIB/libdts_dca.so
+$SP 0 0 0644 $LIB/libdts_hpx_service_c.so
+$SP 0 0 0644 $LIB/libdtscs.so
+$SP 0 0 0644 $LIB/libgnsdk_dsp.3.09.0.so
+$SP 0 0 0644 $LIB/libgnustl_shared.so
+$SP 0 0 0644 $LIB/libharman.so
+$SP 0 0 0644 $LIB/libhpx-lite-sdk.so
+$SP 0 0 0644 $LIB/libiauxcodec.so
+$SP 0 0 0644 $LIB/libiauxmpeg.so
+$SP 0 0 0644 $LIB/libiauxmpeg_64.so
+$SP 0 0 0644 $LIB/libiauxsfx.so
+$SP 0 0 0644 $LIB/libiauxsfx_64.so
+$SP 0 0 0644 $LIB/libiauxusb.so
+$SP 0 0 0644 $LIB/libldacBT_enc.so
+$SP 0 0 0644 $LIB/libMAM2-processcode-Coretex_A9.so
+$SP 0 0 0644 $LIB/libMAM2-wavesfx-Coretex_A9.so
+$SP 0 0 0644 $LIB/libmaxxeffectwrapper.so
+$SP 0 0 0644 $LIB/libneutronmp.so
+$SP 0 0 0644 $LIB/libosl-maxxaudio-itf.so
+$SP 0 0 0644 $LIB/libradsone-shared.so
+$SP 0 0 0644 $LIB/libSpectrum.so
+$SP 0 0 0644 $LIB/libSpectrum_jni.so
+$SP 0 0 0644 $LIB/libstagefright_soft_ddpdec.so
+$SP 0 0 0644 $LIB/libstagefright_soft_dsddec.so
+$SP 0 0 0644 $LIB/libstagefright_soft_dtsdec.so
+$SP 0 0 0644 $LIB/libstlport_shared.so
+$SP 0 0 0644 $LIB/libswresample-2.so
+$SP 0 0 0644 $LIB/libswsprocessing.so
+
+rm -rf $ARISE
+
+umount $SYS
+
+if [ $NAME = angler ] || [ $NAME = bullhead ] || [ $NAME = flounder ]; then
+  umount $VEND
+fi
+
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print "             A.R.I.S.E. Sound Systems™"
+ui_print " "
+ui_print "      Auditory Research in Sound Enhancement™"
+ui_print " "
+ui_print "                 @XDA Developers"
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+ui_print " "
+
+sleep 2
+
+exit 0

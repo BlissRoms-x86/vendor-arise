@@ -1,0 +1,224 @@
+#!/system/bin/sh
+
+## A.R.I.S.E. Sound Systems ##
+##    sonophilos setprop       ##
+##         Lover of Sound        ##
+##        XDA Developers     ##
+##                                        ##
+##    Read comments!   ##
+
+## Asus™ Zenfone 3 Audio ##
+
+# Tunnel, offload and LPA properties replaced below
+setprop mm.enable.qcom_parser 1047551
+setprop audio.parser.ip.buffer.size 262144
+setprop audio.offload.pcm.16bit.enable true
+setprop audio.offload.pcm.24bit.enable true
+setprop audio.offload.disable 0
+setprop mmp.enable.3g2 true
+setprop media.aac_51_output_enabled true
+setprop mm.enable.smoothstreaming true
+setprop audio.offload.video false
+#setprop tunnel.audio.encode false
+#setprop audio.offload.buffer.size.kb 64
+setprop audio.offload.min.duration.secs 30
+#setprop audio.offload.track.enable false
+#setprop audio.offload.gapless.enabled true
+setprop qcom.hw.aac.encoder true
+#setprop use.voice.path.for.pcm.voip true
+setprop persist.audio.hifi.int_codec true
+setprop audio.safx.pbe.enabled true
+setprop audio.pp.asphere.enabled false
+
+## LeTv LeMax 2 Dolby Atmos™ ##
+
+#
+setprop dmid 3067269873
+setprop audio.ds1.metainfo.key 273
+setprop audio.dolby.ds2.enabled true
+setprop audio.dolby.ds2.hardbypass true
+setprop dolby.ds.dialogenhancer.state off
+setprop dolby.ds.graphiceq.state on
+setprop dolby.ds.intelligenteq.state on
+setprop dolby.ds.intelligenteq.preset ieq_open
+setprop dolby.ds.profile.name Music
+setprop dolby.ds.state on
+setprop dolby.ds.virt.bluetooth on
+setprop dolby.ds.virt.hdmi on
+setprop dolby.ds.virt.headphone_port on
+setprop dolby.ds.virt.internal_speaker on
+setprop dolby.ds.virt.miracast on
+setprop dolby.ds.virt.usb on
+setprop dolby.ds.volumeleveler.state off
+#
+
+## Lenovo™ K3 Note MaxxAudio™ ##
+
+#
+setprop ro.lenovo.soundeffect maxxaudio
+setprop audiofx.global.enable 1
+setprop audiofx.global.dts.enable 1
+setprop audiofx.eq.preset 10
+setprop audiofx.bass.enable 1
+setprop audiofx.bass.strength 90
+setprop audiofx.treble.enable 1
+setprop audiofx.treble.strength 70
+setprop audiofx.virtualizer.enable 1
+setprop audiofx.virtualizer.strength 60
+setprop audiofx.maxxvolume.enable 1
+# Hi-Res option for PowerAmp
+setprop ro.lenovo.hifi_support true
+#
+
+## Huawei™ P9 DTS™ ##
+
+#
+setprop ro.config.hw_dts true
+setprop use.dts_m6 true
+setprop use.dts_m6_notify true
+setprop use.dts_eagle true
+#
+
+## Vivo™ XPlay 3S DTS™ Audio ##
+
+#
+setprop persist.vivo.phone.hifi Have_hifi
+#
+
+## Sony™ LDAC ##
+
+#
+setprop ro.somc.ldac.audio.supported true
+setprop persist.service.ldac.enable 1
+setprop com.sonymobile.ldac_enabled true
+#
+
+## Miscellaneous Audio ##
+
+#
+setprop media.stagefright.use-awesome false
+#setprop tunnel.decode false
+#setprop tunnel.audiovideo.decode false
+#setprop lpa.decode false
+#setprop lpa.releaselock false
+#setprop lpa.use-stagefright false
+setprop net.bt.name Numbers
+#
+
+#### End ARISE™ guitardedhero suggested props ####
+
+#### Begin sonophilos additional/optional props ####
+
+## Audio Offload sonophilos adds #
+#
+setprop audio.offload.gapless.enabled true
+setprop audio.offload.multiaac.enable true
+setprop audio.offload.multiple.enabled true
+setprop audio.offload.passthrough false
+setprop audio.offload.track.enabled true
+setprop audio.offload.video false
+# 16bit offload and track are required for DSEE-HX
+setprop audio.offload.pcm.enable true
+setprop audio.offload.pcm.32bit.enable true
+
+## HTC™ Audio sonophilos adds (may only affect HTC) #
+#
+setprop htc.audio.alc.enable 1
+setprop htc.audio.alt.enable 0
+setprop htc.audio.hac.enable 0
+setprop htc.audio.lpa.a2dp 0
+# Gain   perceived volume, but higher is not always better
+# Can go as high as 14512 - this is a smooth value for M9
+setprop htc.audio.swalt.mingain 1920
+setprop persist.audio.SupportHTCHWAEC 1
+# Stereo + LFE: pcm.channels 3
+setprop persist.htc.audio.pcm.channels 3
+setprop persist.htc.audio.pcm.samplerate 192000
+setprop ro.config.hw_dolby true
+
+## Resampler sonophilos adds #
+#
+# af.resampler.quality REMOVED, obsolete in MM+
+setprop audio.converter.samplerate.preferred libsamplerate
+setprop audio.converter.samplerate.libsamplerate.quality best
+setprop clock.allow_streaming_errors false
+setprop default.pcm.rate_converter samplerate_best
+setprop persist.dev.pm.dyn_samplingrate 1
+
+## Sony™ Audio sonophilos adds (libs still in Numbers) #
+#
+setprop com.sonyericsson.xloud_enabled true
+setprop com.sonymobile.clearphase_enabled true
+setprop mpq.audio.decode true
+setprop ro.somc.cp.default_setting true
+setprop ro.somc.xloud.default_setting true
+
+## ViPERAudio™ Legacy sonophilos adds #
+#
+setprop audio.deep_buffer.media false
+setprop persist.audio.hp true
+setprop persist.audio.lowlatency.rec false
+setprop persist.audio.vr.enable false
+setprop persist.hwc.ptor.enable true
+setprop persist.speaker.prot.enable false
+setprop tunnel.multiple true
+
+## ephexxis plundered properties #
+#
+setprop persist.hwc.mdpcomp.enable true
+# May have no effect; may reduce cracking/popping/noise
+setprop tunnel.audio.encode false
+setprop tunnel.decode true
+setprop tunnel.audiovideo.decode false
+setprop lpa.decode true
+setprop lpa.releaselock true
+setprop lpa.use-stagefright true
+# Force AwesomePlayer usage
+setprop persist.sys.media.use-awesome 1
+## System props for Dolby processing #
+# May have no effect on Numbers Dolby; my god the power
+setprop dolby.audio.sink.info aux
+setprop audio.dolby.ds1.enabled true
+setprop audio.dolby.ds1.hardbypass true
+setprop audio.dolby.ds2.enabled true
+setprop audio.dolby.ds2.hardbypass true
+setprop audio.dolby.dax.enabled true
+setprop audio.dolby.dax.hardbypass true
+## HTC™ Audio FX ##
+#
+setprop htc.audio.global.state 1
+# HTC profiles: 0   external speakers, 1   headphones
+setprop htc.audio.global.profile 0
+setprop htc.audio.q6.topology 1
+setprop htc.audio.global.speaker 1
+setprop htc.audio.beats.support2v 1
+setprop htc.audio.effect.srs 1
+# An alternate set of HTC preset effects, milder in nature.
+setprop htc.audio.srs.defaultbundleHS HS250
+## Lenovo™ Dolby™ Audio (may be obsolete in Numbers) #
+#
+#setprop LENOVO_DOLBY_SUPPORT   yes
+#setprop ro.mtk_dolby_dap_support 1
+## Newskool Dolby FX (may be obsolete in Numbers) #
+#
+#setprop ro.mtk_audenh_support 1
+#setprop ro.mtk_bessurround_support 1
+#setprop ro.mtk_bt_support 1
+#setprop ro.mtk_audio_tuning_tool_ver V2.2
+#setprop ro.have_aacencode_feature 1
+## Sony™ Audio (libs still in Numbers) ##
+#
+setprop ro.semc.sound_effects_enabled true
+setprop ro.semc.enhance.supported true
+setprop ro.somc.clearphase.supported true
+setprop ro.semc.clearaudio.supported true
+setprop ro.semc.xloud.supported true
+setprop persist.service.enhance.enable 1
+setprop persist.service.clearphase.enable 1
+setprop persist.service.clearaudio.enable 1
+setprop persist.service.xloud.enable 1
+setprop sony.support.effect 0x1FF
+setprop sony.effect.custom.sp_bundle 0x122
+setprop sony.effect.custom.caplus_hs 0x298
+setprop sony.effect.custom.caplus_sp 0x2B8
+## End ephexxis plunders #

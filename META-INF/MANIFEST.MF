@@ -1,0 +1,1235 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Feel_The_Words/com.vipercn.viper4androi
+ d_v2.speaker.xml
+SHA1-Digest: +ZpdqdpIpccsKUOYu3QqSZ/3GK0=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_OSCAR_normal.xml
+SHA1-Digest: 9DrAnyYm5NLbPvhuPfpCh3BU498=
+
+Name: numbers/etc/dts/lineout_2
+SHA1-Digest: J4vq2tNfm+AFZWdOWzzISxlCpwg=
+
+Name: numbers/etc/dts/bluetooth_3
+SHA1-Digest: wZrYJCP5WgkuvYHORE9g9T4Cs88=
+
+Name: numbers/lib/libstagefright_soft_dtsdec.so
+SHA1-Digest: smdKL8Bvaw1+oIIHxDWOY9MXSB8=
+
+Name: numbers/etc/audio/algorithm/algorithm_KEPLER_normal.xml
+SHA1-Digest: wWauOLZtlt7cclfkq86ceEulKdw=
+
+Name: numbers/etc/audio/algorithm/algorithm_PLK_AL_normal.xml
+SHA1-Digest: yL3fMAuuduMNwy5/za1fstqzdZc=
+
+Name: numbers/etc/firmware/ice40.bin
+SHA1-Digest: opvc2/2n99riSjyJIavivNpq444=
+
+Name: customize/vendor/lib64/soundfx/libqcreverb.so
+SHA1-Digest: dJE7ZhGr/0jDPHvksXDo+bVBkOU=
+
+Name: numbers/lib/soundfx/libspectrum.so
+SHA1-Digest: wCtIXB6CpqqMQwWwuUHx8xY4EAg=
+
+Name: extras/post-install user activities/setprop/_setprop_instructions.
+ prop
+SHA1-Digest: fY8d2IiXcoq3c3Cgb5b1elVKeHQ=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_OSCARVA_normal.xml
+SHA1-Digest: 9DrAnyYm5NLbPvhuPfpCh3BU498=
+
+Name: numbers/etc/audio/algorithm/algorithm_HONORUL_normal.xml
+SHA1-Digest: J1FH5NqZ3K6VjWiDPS00VsLqu6A=
+
+Name: customize/lib/libhwdaphal.so
+SHA1-Digest: vywyW7NC2nvBZWsc+fv9okiXDGE=
+
+Name: numbers/etc/dts/lineout_1
+SHA1-Digest: /fOUg6sPEMJxKa+znu13T6Hr5AQ=
+
+Name: numbers/etc/audio/codec/ascend_EDGEPUL_normal.xml
+SHA1-Digest: x9u+L6C5P/uT6wXbRM00Afi4PDY=
+
+Name: customize/app/ViPER4Arise.apk
+SHA1-Digest: yip23+OIqpTPV0bpz4iyFNUs6ag=
+
+Name: numbers/lib/libldacBT_enc.so
+SHA1-Digest: XenccHXHvX5zGufZUiYilwI/5Uw=
+
+Name: extras/post-install user activities/setprop/ephexxis_setprop
+SHA1-Digest: KFnXRygdswiF9obcKHP48cMBqV0=
+
+Name: numbers/etc/dts/m6-lic.key
+SHA1-Digest: F+D0RuSaQUDu0DHxO7fkOwU+bWw=
+
+Name: numbers/lib/soundfx/libeffectproxy.so
+SHA1-Digest: Q10aMaCz+2mTAcnaz10kcCicUyY=
+
+Name: extras/post-install user activities/audio calibration database/ARI
+ SE Sound Systems Audio Calibration Database.zip
+SHA1-Digest: Dlq2plIDbaqLtZujzEXudBaBm9E=
+
+Name: numbers/etc/dts/bluetooth_4
+SHA1-Digest: 5aKK5iGO5REV66OFIPWXbi+QV6U=
+
+Name: customize/lib64/libswsprocessing.so
+SHA1-Digest: 7flCBpdbOoh6Mgi9PrLk10CR690=
+
+Name: numbers/etc/audio/codec/ascend_OSCARVA_normal.xml
+SHA1-Digest: c09ljvfso+F7mYv5nmjsWz/klqI=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/sonophi
+ los_Profile/Sonophilos-Speakers/com.vipercn.viper4android_v2.usb.xml
+SHA1-Digest: /MtdA0zb+RnYAfxF8KDT4skPCSk=
+
+Name: numbers/lib/libstagefright_soft_ddpdec.so
+SHA1-Digest: eWM6EPgDbaVRFlofEBCUAw2Tfks=
+
+Name: numbers/etc/audio/codec/ascend_HONORUL_normal.xml
+SHA1-Digest: dTh3yXvpVmP2YAaHPtjEm0FzAc8=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_GRACE_CLG_normal.xml
+SHA1-Digest: IS0yKKgBlzwbT7YGJLpcgAkV8Bc=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Breath_The_Numbers/com.vipercn.viper4an
+ droid_v2.bluetooth.xml
+SHA1-Digest: ITujgNjNDPfuyyoax+01X6H0PBY=
+
+Name: numbers/etc/audio/codec/ascend_OSCARUL_ce.xml
+SHA1-Digest: nIAy7nFDRDym6HZSL+JNBNNMVM4=
+
+Name: numbers/etc/dts/configurator.cfg
+SHA1-Digest: uHjDjefsjEeRf6/98NBX7wl8NaQ=
+
+Name: numbers/lib/soundfx/libmaxv.so
+SHA1-Digest: pbJ04xcDmyoAArNi0C6W6uCLHpw=
+
+Name: numbers/etc/dts/speaker_off
+SHA1-Digest: V557ZAv8elRBm+SCvDEbP4aVW3o=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Audioph
+ ile X/com.vipercn.viper4android_v2.headset.xml
+SHA1-Digest: fxERCTwect52DtG1YqWIgWo9McI=
+
+Name: numbers/lib/libaemagic.so
+SHA1-Digest: pHZWm2PMt9b4pvqp1VdjckwdpOI=
+
+Name: numbers/lib/libdts_dca.so
+SHA1-Digest: D25jfIqLrzG8sfVr7H7/jVirK30=
+
+Name: numbers/etc/dts/eagle-lic.key
+SHA1-Digest: PvKDZQCLC4xNmbL0AIFumR2/OR4=
+
+Name: numbers/etc/dts-eagle.lic
+SHA1-Digest: F+D0RuSaQUDu0DHxO7fkOwU+bWw=
+
+Name: numbers/etc/dts/speaker_4
+SHA1-Digest: rWIKsDmqbeo56z3nfZXxHg8xt/s=
+
+Name: numbers/lib/libautaglib.so
+SHA1-Digest: peaC0CdPty9bKsyMAniB4bV8w9U=
+
+Name: customize/app/x86/libV4AJniUtils.so
+SHA1-Digest: hE37Ygq3j9PEX07TtPfwFTMUZ2U=
+
+Name: numbers/lib/libavutil-55.so
+SHA1-Digest: AwXuNeMhKY9LPmxx1U+XBeDaEbg=
+
+Name: numbers/etc/dts/lineout_9
+SHA1-Digest: ASQpS1Vw4jtqnlVPsRPx5JXDDZQ=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_HONORTL_normal.xml
+SHA1-Digest: yPXRYMegyokwb9v4SJ2jvSTMd3w=
+
+Name: numbers/etc/audio/dts/dts_GEMINI_normal.xml
+SHA1-Digest: J9UvQC+OSETNvLgtSH4i8O5RTY0=
+
+Name: customize/lib64/libiauxusb.so
+SHA1-Digest: KAvcBUfEqtrXvis8QVbdGCDDw7s=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Atmos_All_Round_Numbers/com.vipercn.vip
+ er4android_v2.usb.xml
+SHA1-Digest: vN5cb3yxuyPxaJ/3bCRgCvRnnmc=
+
+Name: numbers/lib/libSpectrum.so
+SHA1-Digest: hJQKLx1xJL2sXgHfnysmqDRk5qs=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Feel_The_Words/com.vipercn.viper4androi
+ d_v2.bluetooth.xml
+SHA1-Digest: ITujgNjNDPfuyyoax+01X6H0PBY=
+
+Name: numbers/etc/audio/dts/dts_GALILEO_normal.xml
+SHA1-Digest: 2+QGMXYQRV/s2dIRWGGYD8amllY=
+
+Name: numbers/etc/icesoundconfig.def
+SHA1-Digest: WRK0UgvGtcUDwLYz5rd25OP7hWs=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_hi3635_normal.xml
+SHA1-Digest: IS0yKKgBlzwbT7YGJLpcgAkV8Bc=
+
+Name: customize/vendor/lib/soundfx/libqcreverb.so
+SHA1-Digest: TK1VbzmGNtGVHDs8OSAZyZsy1Xw=
+
+Name: numbers/etc/audio/dts/dts_EDISON_normal.xml
+SHA1-Digest: ATkhiOTd+8eg4vgc9orQedCz95M=
+
+Name: numbers/etc/audio/codec/ascend_default_normal.xml
+SHA1-Digest: yhmYQwHZteUwPq0zUwwEwQAYfKI=
+
+Name: numbers/etc/audio/codec/ascend_default_ce.xml
+SHA1-Digest: yhmYQwHZteUwPq0zUwwEwQAYfKI=
+
+Name: numbers/etc/dts/lineout_4
+SHA1-Digest: aLNJG+d+HeZEP7UpVtVIf4BAsJ8=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/smeejay
+ tee_Profile/ViPER4Android/DDC/DAXopen.vdc
+SHA1-Digest: lllvf0gOzkL5rirJ2l9Au0h2ydI=
+
+Name: numbers/lib/libauusb.so
+SHA1-Digest: tt1UbXn2bvssy7q0Bb13scs7fEc=
+
+Name: numbers/lib/libauvorbis.so
+SHA1-Digest: ODuzXz9Xu+83JAmx7nGsJrgttMU=
+
+Name: numbers/etc/audio/algorithm/algorithm_BEETHOVEN_normal.xml
+SHA1-Digest: 3Yb47azElg0LpNHuI/OIoKpHWsM=
+
+Name: numbers/etc/audio/codec/ascend_HONORTL_normal.xml
+SHA1-Digest: dTh3yXvpVmP2YAaHPtjEm0FzAc8=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/sonophi
+ los_Profile/Sonophilos-Headphones/com.vipercn.viper4android_v2.speaker.
+ xml
+SHA1-Digest: 8DIomArt5pcyJqLdrDsamuN4SOo=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: e7YEsm7ngjs+CUFtwfeve55Ok9w=
+
+Name: numbers/etc/audio/algorithm/algorithm_LISZT_normal.xml
+SHA1-Digest: u93iU9Z7GXdB1jp4ncoVdkH7Eto=
+
+Name: customize/lib/libsrsprocessing.so
+SHA1-Digest: 2jrPr3Iew4sAXp0AAhVJGynTquQ=
+
+Name: customize/vendor/lib/libdts-eagle-shared.so
+SHA1-Digest: 7Rl5KxBnWzwQgJl1YMtYMwNLRU8=
+
+Name: numbers/etc/dts/dts-m6m8-lic.key
+SHA1-Digest: Cl5hJg4nwWG+g6PzGedmEf2fXdQ=
+
+Name: numbers/etc/audio/algorithm/algorithm_PLK_UL_normal.xml
+SHA1-Digest: yL3fMAuuduMNwy5/za1fstqzdZc=
+
+Name: customize/lib/lib64/libsonydseehxwrapper.so
+SHA1-Digest: jrgpVFw5s6u7pO/7U/BQGPyQ9AU=
+
+Name: numbers/etc/audio/algorithm/algorithm_hi3650_normal.xml
+SHA1-Digest: GNtYIjcuQktIlg5v6EOiW6bjk4k=
+
+Name: customize/lib64/soundfx/libeffectproxy.so
+SHA1-Digest: /C+BGYFi4YVWx1o+UAObFO4Hd4k=
+
+Name: numbers/lib/soundfx/libAuro.so
+SHA1-Digest: hRRD1zQXkzl1MPhs9ONQ4mH9YG0=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Atmos_All_Round_Numbers/com.vipercn.vip
+ er4android_v2.headset.xml
+SHA1-Digest: LZfEax97l2zJbNTl72amvSvdXvQ=
+
+Name: numbers/etc/audio/dts/dts_hi3635_normal.xml
+SHA1-Digest: 9G07aLDNtS9oM7a+MmcUsLbWLlk=
+
+Name: numbers/etc/audio/algorithm/algorithm_SOPHIACLG_normal.xml
+SHA1-Digest: 4DNbE2NhHMSnx7L9gkQ30s7rSx8=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Numbers_All_Around_Us/com.vipercn.viper
+ 4android_v2.headset.xml
+SHA1-Digest: SIp6rW6MKuoBfejlnffojfuyTVg=
+
+Name: numbers/lib/libiauxsfx_64.so
+SHA1-Digest: VxISVWuK03VAtZ3rNMNxu2SgZ+M=
+
+Name: numbers/lib/soundfx/libmmieffectswrapper.so
+SHA1-Digest: p/qPo4OG1X3Hu57KCnVHNlLAZ6o=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Audioph
+ ile X/Audiophile_Info.prop
+SHA1-Digest: ygma/P4ZxzeoXFnGufCgQav3zkM=
+
+Name: numbers/etc/dts/lineout_8
+SHA1-Digest: KGVwR0dv8DPAiDi0Q9CXnfgHXlc=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: 6eFFFDO5LNzqtp4V3ikD2s+G+Tk=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Atmos_The_Numbers/com.vipercn.viper4and
+ roid_v2.speaker.xml
+SHA1-Digest: /y5wi4nfO7inBeNNNOZjmTRBvC4=
+
+Name: numbers/etc/audio/dts/dts_default.xml
+SHA1-Digest: 9G07aLDNtS9oM7a+MmcUsLbWLlk=
+
+Name: extras/post-install user activities/tweakprop/_tweakprop_instructi
+ ons.prop
+SHA1-Digest: UdEkEneB8/jSmKyXyfVyrwyJxm4=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Audioph
+ ile X/com.vipercn.viper4android_v2.speaker.xml
+SHA1-Digest: rvSDYFqglCWAexbNtz00s5YSItU=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Freefall/com.vipercn.viper4android_v2.s
+ peaker.xml
+SHA1-Digest: /y5wi4nfO7inBeNNNOZjmTRBvC4=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/jacobh2
+ 5_headset_Profile/com.vipercn.viper4android_v2.usb.xml
+SHA1-Digest: /MtdA0zb+RnYAfxF8KDT4skPCSk=
+
+Name: customize/vendor/lib64/soundfx/libqcvirt.so
+SHA1-Digest: T0mZgYbKseXyIm7rw3QKzStBodw=
+
+Name: numbers/etc/audio/algorithm/algorithm_DAVINCE_normal.xml
+SHA1-Digest: u93iU9Z7GXdB1jp4ncoVdkH7Eto=
+
+Name: customize/lib64/soundfx/libvisualizer.so
+SHA1-Digest: KzzelKcaaeyaqUcn1bLJXWhprns=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_hi3635cs_normal.xml
+SHA1-Digest: IS0yKKgBlzwbT7YGJLpcgAkV8Bc=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/sonophi
+ los_Profile/sonophilos_information.prop
+SHA1-Digest: ROuqxaDmZOqsOs9lCNdbXGeOnFY=
+
+Name: customize/lib64/libiauxcodec.so
+SHA1-Digest: yt8KxTvCAvmeMNpqeHD4baRMr4E=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/sonophi
+ los_Profile/Sonophilos-Headphones/com.vipercn.viper4android_v2.headset.
+ xml
+SHA1-Digest: 46uK6sxwB+/nVXJC8ywIQstlOcc=
+
+Name: numbers/lib/libavformat-57.so
+SHA1-Digest: 8dNiEK/WQxD4ZApNaIEwuE1iwVc=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_9mm/com.vipercn.viper4android_v2.usb.xm
+ l
+SHA1-Digest: vN5cb3yxuyPxaJ/3bCRgCvRnnmc=
+
+Name: numbers/etc/audio/dts/dts_PLK_CL_normal.xml
+SHA1-Digest: thufmJqC9Ohil8XaMCcdDwMzML0=
+
+Name: numbers/etc/audio/algorithm/algorithm_SOPHIA_normal.xml
+SHA1-Digest: 4DNbE2NhHMSnx7L9gkQ30s7rSx8=
+
+Name: numbers/etc/audio/algorithm/algorithm_CARRERA_TUGL_normal.xml
+SHA1-Digest: HPrZuZtbq8cxWwqBYznWm8Ga41Q=
+
+Name: extras/post-install user activities/setprop/sonophilos_setprop
+SHA1-Digest: BlgAkZrx7q0jm8YpcJTOYNfUwEI=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Breath_It_In/com.vipercn.viper4android_
+ v2.bluetooth.xml
+SHA1-Digest: ITujgNjNDPfuyyoax+01X6H0PBY=
+
+Name: numbers/lib/libiauxmpeg.so
+SHA1-Digest: 95WPPx6+QcxkQty1KDXHqlxqJD4=
+
+Name: numbers/lib/soundfx/libvisualizer.so
+SHA1-Digest: IJuCID/UYRseMxElQh1GXP0vySI=
+
+Name: numbers/lib/libswresample-2.so
+SHA1-Digest: 382ixJaJkVR+8tCEAeptdhOi+Gs=
+
+Name: numbers/etc/audio/algorithm/algorithm_hi3635_normal.xml
+SHA1-Digest: yL3fMAuuduMNwy5/za1fstqzdZc=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Dat_Bass/com.vipercn.viper4android_v2.s
+ peaker.xml
+SHA1-Digest: /y5wi4nfO7inBeNNNOZjmTRBvC4=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/DDC/Ephexxis_DTS_HiRes.vdc
+SHA1-Digest: YW0j4LnL9eekKkIhGbs73/mIIz0=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/smeejay
+ tee_Profile/ViPER4Android/Profile/Feel_The_beatz/com.vipercn.viper4andr
+ oid_v2.bluetooth.xml
+SHA1-Digest: AgfhiKxZiFKbdHF+iDkUcCfboiU=
+
+Name: customize/etc/htc_audio_effects.conf
+SHA1-Digest: wTx5/OBX1edTKXzomHyz4BnXAeE=
+
+Name: numbers/lib/libMAM2-processcode-Coretex_A9.so
+SHA1-Digest: sEkHY63kPBRdHGQm/2LTrLcVRFw=
+
+Name: numbers/etc/dts/speaker_2
+SHA1-Digest: tWMREt5vFmd/Zpoc8sANPBYMjaU=
+
+Name: extras/post-install user activities/setprop/smeejaytee_setprop
+SHA1-Digest: 0/5NH9kcTDI1JOrVSAuItgSNRj4=
+
+Name: customize/su.d/arisesoundserver
+SHA1-Digest: OVaFSF/5LIhm1ePerc0eiWvMylE=
+
+Name: numbers/etc/audio/algorithm/algorithm_hi3635cs_normal.xml
+SHA1-Digest: yL3fMAuuduMNwy5/za1fstqzdZc=
+
+Name: extras/post-install user activities/setprop/arisesound_setprop
+SHA1-Digest: S8YGIzn+YSowKqmS8VWiJdlSkrA=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Breath_It_In/com.vipercn.viper4android_
+ v2.headset.xml
+SHA1-Digest: h9fr8W0USEmNgxPkGpAAdpLCj6E=
+
+Name: numbers/lib/libaudsd2pcm.so
+SHA1-Digest: jBwkpQwaJXURp265rQt+fo46Vaw=
+
+Name: customize/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
+SHA1-Digest: zHiQS2noUoG5HJT0dL3UC1xNmQc=
+
+Name: numbers/etc/audio/algorithm/algorithm_EVA_normal.xml
+SHA1-Digest: 3Yb47azElg0LpNHuI/OIoKpHWsM=
+
+Name: extras/post-install user activities/tweakprop/tweakprop.zip
+SHA1-Digest: W2+UfwTbSvy/yWfAk3UNV5feyCA=
+
+Name: numbers/etc/dts/lineout_6
+SHA1-Digest: d+PMzO3CYn6d1SUXMXTZJ+Gw6IY=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Freefall/com.vipercn.viper4android_v2.u
+ sb.xml
+SHA1-Digest: vN5cb3yxuyPxaJ/3bCRgCvRnnmc=
+
+Name: numbers/etc/dts/srs_processing_off.cfg
+SHA1-Digest: uhOk40iHznuw1eR+dPUwtUCJINw=
+
+Name: numbers/etc/audio/codec/ascend_EDGEPUG_ce.xml
+SHA1-Digest: g+QE0hZmJXwACi7ZU0WN1VzOiLA=
+
+Name: customize/lib/libv4a_fx_jb_NEON.so
+SHA1-Digest: Peo86kDBpXQepxt0TAQhi3jICsw=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_OSCARTL_normal.xml
+SHA1-Digest: 9DrAnyYm5NLbPvhuPfpCh3BU498=
+
+Name: numbers/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so
+SHA1-Digest: sDdyZyFE1LdQpWcsKSKt7ZO7BRI=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Kernel/SuperSound.irs
+SHA1-Digest: AT+3pKZgApm8znDcFjafBf3nvDE=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Dat_Bass/com.vipercn.viper4android_v2.h
+ eadset.xml
+SHA1-Digest: Lpor9WBP+F8WLFfPKq9l9mRUnm0=
+
+Name: numbers/etc/audio/dts/dts_CARRERA_TUGL_normal.xml
+SHA1-Digest: 3FKMMlIeHfe2etCOpiPeLoH8Yyg=
+
+Name: numbers/etc/srs/srs_processing.cfg
+SHA1-Digest: RtjX+4dLFqmUNPwY1T2szil9UzE=
+
+Name: numbers/etc/audio/dts/dts_EVA_normal.xml
+SHA1-Digest: d28JMfF98jFxn4JcloVauvPdCwQ=
+
+Name: numbers/lib/libradsone-shared.so
+SHA1-Digest: YIXCcu47UrF76LG73zqk+JdUOlo=
+
+Name: numbers/etc/audio/codec/ascend_SOPHIA_normal.xml
+SHA1-Digest: 4qxZqS0p57+hhqDzyZ0H1N5GZDg=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/smeejay
+ tee_Profile/ViPER4Android/DDC/DAXfocused.vdc
+SHA1-Digest: 72ERpTz/CScpFd68tv3m8+nhnKk=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/jacobh2
+ 5_headset_Profile/com.vipercn.viper4android_v2.speaker.xml
+SHA1-Digest: 8DIomArt5pcyJqLdrDsamuN4SOo=
+
+Name: numbers/etc/audio/codec/ascend_OSCARUL_normal.xml
+SHA1-Digest: nIAy7nFDRDym6HZSL+JNBNNMVM4=
+
+Name: numbers/etc/audio/codec/ascend_OSCAR_ce.xml
+SHA1-Digest: nIAy7nFDRDym6HZSL+JNBNNMVM4=
+
+Name: numbers/etc/srs/models.txt
+SHA1-Digest: NwXCMubodugDFVzbltmoR9cvnnE=
+
+Name: numbers/etc/audio/dts/dts_KNIGHT_normal.xml
+SHA1-Digest: EeyzF5zLoPa8iBD9VGKVKpNH1rY=
+
+Name: customize/etc/audio_offload_effects.conf
+SHA1-Digest: NdDpQ7ytpo7SIEVW/jWrYyiDVj4=
+
+Name: numbers/bin/dts_v
+SHA1-Digest: XRwiNRw6vM0fc+bOWlOmrww9ghg=
+
+Name: numbers/lib/libiauxsfx.so
+SHA1-Digest: caaG/vYu5LxIxVo4M420y8PYDWE=
+
+Name: numbers/etc/audio/dts/dts_KEPLER_normal.xml
+SHA1-Digest: QRBsmk2lIhennRavX0MtQtWH1sM=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Atmos_The_Numbers/com.vipercn.viper4and
+ roid_v2.headset.xml
+SHA1-Digest: NKzPBGIwPBide1K2jLTHt2LvE6w=
+
+Name: extras/_extras_information.prop
+SHA1-Digest: tl+7G9YFmHm/2Od196YWwhVdB+o=
+
+Name: numbers/etc/icesoundpresets.def
+SHA1-Digest: mPvgXjDnOmjajsvIwsw2a68CuCk=
+
+Name: numbers/etc/audio/codec/ascend_SOPHIA_ce.xml
+SHA1-Digest: spZewrMfyHhdReGfUDJK1xqg3+A=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_EDGEPUG_normal.xml
+SHA1-Digest: PidpQ5+8+m+0eYi0wWEo/OuoCJg=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Earthquake/com.vipercn.viper4android_v2
+ .headset.xml
+SHA1-Digest: 7uj2xEYriCtWrUojTlkZGQxyma0=
+
+Name: customize/drc/libdrc.so
+SHA1-Digest: pcWG4f7JK7P9MxwTrmny6DxYwPI=
+
+Name: numbers/lib/libausoxr.so
+SHA1-Digest: O4EGpGRXYRhsNuDuYOgZDHF5Ams=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Earthquake/com.vipercn.viper4android_v2
+ .usb.xml
+SHA1-Digest: vN5cb3yxuyPxaJ/3bCRgCvRnnmc=
+
+Name: customize/lib/libv4a_fx_jb_X86.so
+SHA1-Digest: vysQdUcdOciHdJGrhuyxc3vCC1Q=
+
+Name: numbers/etc/audio/algorithm/algorithm_VIENNA_normal.xml
+SHA1-Digest: VeUE/wEs8mRtcsnFnJvElj1g7RY=
+
+Name: numbers/etc/audio_effects.conf
+SHA1-Digest: b+IWd+oGej+e0lcaDn1Pxu8D/EA=
+
+Name: numbers/lib/libgnsdk_dsp.3.09.0.so
+SHA1-Digest: kR6Brk/JwlPmTfkxUEBMpCQTUz4=
+
+Name: numbers/etc/audio/algorithm/algorithm_PLK_TL_normal.xml
+SHA1-Digest: yL3fMAuuduMNwy5/za1fstqzdZc=
+
+Name: numbers/etc/audio/algorithm/ascend_algorithm_default.xml
+SHA1-Digest: yL3fMAuuduMNwy5/za1fstqzdZc=
+
+Name: numbers/lib/libcmxearfx.so
+SHA1-Digest: iz5oDg+VVgKzbxRYLtWiBV14boY=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Earthquake/com.vipercn.viper4android_v2
+ .bluetooth.xml
+SHA1-Digest: ITujgNjNDPfuyyoax+01X6H0PBY=
+
+Name: numbers/bin/dts_hpx_service
+SHA1-Digest: LL4jfBkbwwQMqvup8kHK/bb6Xds=
+
+Name: numbers/etc/dts/lineout_0
+SHA1-Digest: 6DYISnH366w9281bQZsXe2bjuko=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_hi3650_normal.xml
+SHA1-Digest: 2+QGMXYQRV/s2dIRWGGYD8amllY=
+
+Name: numbers/lib/libneutronmp.so
+SHA1-Digest: oWIN5x623izKcrjT4li/JExpeEg=
+
+Name: numbers/etc/audio/algorithm/algorithm_EDISON_normal.xml
+SHA1-Digest: CRS+iSZpAZHKGEiu+DzmpKOgolk=
+
+Name: _numbers.prop
+SHA1-Digest: Vh/nbewkwRd4l9tt8dpkxWEDoGc=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Feel_The_Words/com.vipercn.viper4androi
+ d_v2.headset.xml
+SHA1-Digest: XVxk9nJVkPR9MP09wgi/34FhHfA=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/DDC/Percocet.vdc
+SHA1-Digest: oezfqCVDRJD0MK2l1k1LB1L/VrE=
+
+Name: numbers/etc/audio/dts/dts_MOZART_normal.xml
+SHA1-Digest: 9G07aLDNtS9oM7a+MmcUsLbWLlk=
+
+Name: numbers/etc/audio/dts/dts_PLK_AL_normal.xml
+SHA1-Digest: thufmJqC9Ohil8XaMCcdDwMzML0=
+
+Name: numbers/etc/audio/algorithm/algorithm_default_normal.xml
+SHA1-Digest: 0es4X6mITz+KC3I7qLHWeIgAYQ4=
+
+Name: customize/etc/audio_effects_vendor.conf
+SHA1-Digest: WKzJovxbjmsRtM1HGsIlAYpPiQY=
+
+Name: numbers/etc/audio/dts/dts_GRACE_UL_normal.xml
+SHA1-Digest: pDnugmrWKqUoo/5KCR5EfbqbF9Y=
+
+Name: numbers/etc/audio/algorithm/algorithm_OSCAR_normal.xml
+SHA1-Digest: 35Dcytowi+WzBThTl+zJSWjTcrQ=
+
+Name: extras/post-install user activities/tweakprop/sonophilos_tweakprop
+ .zip
+SHA1-Digest: doKR6wxFnbA80/1Fi46yBQgxYvc=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Breath_The_Numbers/com.vipercn.viper4an
+ droid_v2.usb.xml
+SHA1-Digest: vN5cb3yxuyPxaJ/3bCRgCvRnnmc=
+
+Name: numbers/etc/dts/bluetooth0.dtscs
+SHA1-Digest: OuUz3/93FHfHXXeHq98hGTkJ4us=
+
+Name: numbers/etc/audio/algorithm/algorithm_FRD_normal.xml
+SHA1-Digest: sclol6E6sm9noG09sKIoNcGrEAg=
+
+Name: numbers/etc/audio/codec/ascend_HONORUL_ce.xml
+SHA1-Digest: tSXpbJzMWOzNvErSRUJo59zhvwI=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/smeejay
+ tee_Profile/ViPER4Android/Profile/Feel_The_beatz/com.vipercn.viper4andr
+ oid_v2.speaker.xml
+SHA1-Digest: xyF1csZGNarg6ytFe4u3au5ckMM=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/jacobh2
+ 5_headset_Profile/com.vipercn.viper4android_v2.headset.xml
+SHA1-Digest: VfSQvzC17KtXW5FCz79b7xRdD8U=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Breath_The_Numbers/com.vipercn.viper4an
+ droid_v2.speaker.xml
+SHA1-Digest: /y5wi4nfO7inBeNNNOZjmTRBvC4=
+
+Name: customize/lib64/soundfx/libqcompostprocbundle.so
+SHA1-Digest: wWzAHFGQlc9rLk0Sj3e2oWYTRVI=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_9mm/com.vipercn.viper4android_v2.headse
+ t.xml
+SHA1-Digest: guL2tM0jzaxxeLIEzsDC0KyFbaE=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/smeejay
+ tee_Profile/ViPER4Android/Profile/Feel_The_Beatz_0.9.8.7v2/com.vipercn.
+ viper4android_v2.headset.xml
+SHA1-Digest: UkW5aMJurfAGJ83llYPBObLVTL4=
+
+Name: numbers/etc/audio/codec/ascend_OSCARTL_ce.xml
+SHA1-Digest: nIAy7nFDRDym6HZSL+JNBNNMVM4=
+
+Name: numbers/lib/soundfx/libsonysweffect.so
+SHA1-Digest: WtEN68FCKFLR4W3wHUIcrRvQxBc=
+
+Name: numbers/etc/audio/dts/dts_GRACEES_normal.xml
+SHA1-Digest: 9G07aLDNtS9oM7a+MmcUsLbWLlk=
+
+Name: customize/lib64/libiauxsfx.so
+SHA1-Digest: 4cDrQrk0RpkRjLURtIpwd5sDubQ=
+
+Name: customize/etc/audio_effects.conf
+SHA1-Digest: NdDpQ7ytpo7SIEVW/jWrYyiDVj4=
+
+Name: numbers/etc/audio/codec/ascend_SOPHIACLG_normal.xml
+SHA1-Digest: mXvarHTT8a/AWSNk3hycoorgELI=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Audioph
+ ile X/com.vipercn.viper4android_v2.bluetooth.xml
+SHA1-Digest: lX0HRTqAtVJRxgBCIiXaYBZehCI=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_9mm/com.vipercn.viper4android_v2.speake
+ r.xml
+SHA1-Digest: /y5wi4nfO7inBeNNNOZjmTRBvC4=
+
+Name: numbers/lib/libmaxxeffectwrapper.so
+SHA1-Digest: e7rjobxgqEbdxKbc1EVmOSZrPhU=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_GRACE_UL_normal.xml
+SHA1-Digest: IS0yKKgBlzwbT7YGJLpcgAkV8Bc=
+
+Name: numbers/etc/audio/algorithm/algorithm_OSCARTL_normal.xml
+SHA1-Digest: 35Dcytowi+WzBThTl+zJSWjTcrQ=
+
+Name: numbers/lib/libhpx-lite-sdk.so
+SHA1-Digest: CLQOmBC5jP+65TqjVxnFrMC/ZQo=
+
+Name: customize/etc/drc/drc_cfg_AZ.txt
+SHA1-Digest: Z9bthSTGrO1TJ/PXYUF4eveFhyM=
+
+Name: numbers/etc/dts/speaker_0
+SHA1-Digest: MvI7n33Zem+i68zckK2PAww12Uc=
+
+Name: numbers/etc/dts/combo0.dtscs
+SHA1-Digest: NfcwWMabGY6QeV5U8DqxUq5CkqQ=
+
+Name: numbers/lib/libstagefright_soft_dsddec.so
+SHA1-Digest: RI27uCX+jnylEADS3dFbibgMALI=
+
+Name: numbers/etc/audio/dts/dts_hi3650_normal.xml
+SHA1-Digest: 2+QGMXYQRV/s2dIRWGGYD8amllY=
+
+Name: customize/vendor/lib64/soundfx/libqcbassboost.so
+SHA1-Digest: UDdzHOvfYjoKiXETPltgZ9I585g=
+
+Name: numbers/etc/audio/dts/dts_LITTLEBOY_normal.xml
+SHA1-Digest: IS0yKKgBlzwbT7YGJLpcgAkV8Bc=
+
+Name: numbers/etc/audio/codec/ascend_OSCARVA_ce.xml
+SHA1-Digest: c09ljvfso+F7mYv5nmjsWz/klqI=
+
+Name: customize/vendor/lib/soundfx/libqcbassboost.so
+SHA1-Digest: GPjU9nCT4E7qfYINqFLCD6nWbIw=
+
+Name: numbers/lib/libauogg.so
+SHA1-Digest: yi6aVpwM1z0aBd5cK65mf48rq8I=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Freefall/Roi007_Breath_It_In.zip
+SHA1-Digest: 5PD86nQF4hjOT3zsfiWBULnYkGo=
+
+Name: customize/lib64/libiauxmpeg.so
+SHA1-Digest: 1lP+LVNW0ggstTFFWUqhE/4DJBk=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_SOPHIA_normal.xml
+SHA1-Digest: Px0FgYX/6fmo7slyOjvvWdkH6sc=
+
+Name: customize/app/Esira.apk
+SHA1-Digest: cZ4ws7gdNqUVFzfUxjyIYhrP9VY=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_OSCARUL_normal.xml
+SHA1-Digest: 9DrAnyYm5NLbPvhuPfpCh3BU498=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/DDC/V4ARISE.vdc
+SHA1-Digest: 3wn4gHJBLnoChGEQUboa2C+x3JY=
+
+Name: numbers/lib/soundfx/libsrs.so
+SHA1-Digest: FtInpYBUCoSIzATclinodlMQPvI=
+
+Name: numbers/etc/audio/algorithm/algorithm_KNIGHT_normal.xml
+SHA1-Digest: Fgb3l24IWgC4VwJ2leUIVezvQ2Y=
+
+Name: numbers/etc/audio/dts/dts_VIENNA_normal.xml
+SHA1-Digest: cJRkgxyKbYxx1ROWG/VXHsP/xAQ=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/smeejay
+ tee_Profile/ViPER4Android/DDC/DAXrich.vdc
+SHA1-Digest: olQHN2eFlLrKqgqbg8W2Qfp9WXY=
+
+Name: customize/lib64/libiauxmpeg_64.so
+SHA1-Digest: XAdBWXqrf0/UcgzqEankBcaJP4k=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/smeejay
+ tee_Profile/ViPER4Android/Profile/Feel_The_Beatz_0.9.8.7v2/com.vipercn.
+ viper4android_v2.speaker.xml
+SHA1-Digest: ckb6g7LyrUl9s2hs48CeylDeY9U=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Breath_It_In/com.vipercn.viper4android_
+ v2.usb.xml
+SHA1-Digest: vN5cb3yxuyPxaJ/3bCRgCvRnnmc=
+
+Name: numbers/lib/libSpectrum_jni.so
+SHA1-Digest: z1MmY9O092K4xDcBvKzvW5fTRWc=
+
+Name: customize/surround_3mic_proc/libsurround_3mic_proc.so
+SHA1-Digest: XdV1eaKmi3t1ZCiasTyOcYPGMN8=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_default_normal.xml
+SHA1-Digest: PidpQ5+8+m+0eYi0wWEo/OuoCJg=
+
+Name: numbers/su.d/arisesound_setprop
+SHA1-Digest: S8YGIzn+YSowKqmS8VWiJdlSkrA=
+
+Name: extras/post-install user activities/bonus/_bonus_information.prop
+SHA1-Digest: /iUKtGjYax5cxHoyy8AoI9r037s=
+
+Name: numbers/bin/dts_configurator
+SHA1-Digest: WPRz9qUhjYW+Mh+uEKbFnLppoZE=
+
+Name: numbers/lib/libosl-maxxaudio-itf.so
+SHA1-Digest: FntYw7i+htDb9i4RI//rRhYJ2Mo=
+
+Name: numbers/etc/audio/codec/ascend_SOPHIACLG_ce.xml
+SHA1-Digest: XupK9GiAinbeEyB8c6SlSqi54hs=
+
+Name: numbers/etc/dts/bluetooth_2
+SHA1-Digest: 1u/OriIbdApuinQn186e69+T3Ss=
+
+Name: customize/vendor/lib/libeaglecore.so
+SHA1-Digest: wLuU4ZvfMYUU9Dbn3ZIDujqgr0g=
+
+Name: numbers/etc/audio/algorithm/algorithm_GALILEO_normal.xml
+SHA1-Digest: ZC/nrmHJcp6KZCovBE0lU1YVYl8=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/sonophi
+ los_Profile/Sonophilos-Speakers/com.vipercn.viper4android_v2.headset.xm
+ l
+SHA1-Digest: azzGbhFTWky/G08uWeuOWZcOctk=
+
+Name: numbers/etc/dts/lineout_5
+SHA1-Digest: Lw3OHrlJ/o/MKyxeJ1hWQ+hZiLw=
+
+Name: numbers/etc/audio/dts/dts_PLK_UL_normal.xml
+SHA1-Digest: thufmJqC9Ohil8XaMCcdDwMzML0=
+
+Name: numbers/etc/audio/algorithm/algorithm_CARRERA_CLG_normal.xml
+SHA1-Digest: HPrZuZtbq8cxWwqBYznWm8Ga41Q=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Feel_The_Words/com.vipercn.viper4androi
+ d_v2.usb.xml
+SHA1-Digest: vN5cb3yxuyPxaJ/3bCRgCvRnnmc=
+
+Name: numbers/etc/audio/algorithm/algorithm_OSCARUL_normal.xml
+SHA1-Digest: 35Dcytowi+WzBThTl+zJSWjTcrQ=
+
+Name: numbers/lib/libstlport_shared.so
+SHA1-Digest: 1Ac+EomCgtMiSVrGo81+0MRT+Vc=
+
+Name: numbers/etc/audio/algorithm/algorithm_EDGEPUL_normal.xml
+SHA1-Digest: RM9yiwlbOF6RtwY8HtLZvaOlglU=
+
+Name: numbers/etc/dts/srs_processing_vocal.cfg
+SHA1-Digest: LPjsSB0k4F1uGKko4z3JQqn4anY=
+
+Name: numbers/etc/audio/algorithm/algorithm_EDGEPUG_normal.xml
+SHA1-Digest: RM9yiwlbOF6RtwY8HtLZvaOlglU=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Atmos_All_Round_Numbers/com.vipercn.vip
+ er4android_v2.bluetooth.xml
+SHA1-Digest: ITujgNjNDPfuyyoax+01X6H0PBY=
+
+Name: numbers/etc/dts/other.dtscs
+SHA1-Digest: YzsNHAXGm+kbozQq95WtVJv2vmA=
+
+Name: numbers/lib/soundfx/libhpx.so
+SHA1-Digest: 1hbd2cgjUAd8jPyvPD2U2OmwAho=
+
+Name: numbers/lib/soundfx/libqcompostprocbundle.so
+SHA1-Digest: Hqwpfdqg1jQO7bhjFoIJkQt6ChI=
+
+Name: numbers/etc/dts-decoder.lic
+SHA1-Digest: F+D0RuSaQUDu0DHxO7fkOwU+bWw=
+
+Name: numbers/lib/libswsprocessing.so
+SHA1-Digest: 1713A5OqAOJ76GB7NYhD78UOSUw=
+
+Name: numbers/lib/libdtscs.so
+SHA1-Digest: mQfRjpF1DTRaDREZs+LWNsTxEiU=
+
+Name: numbers/etc/audio/algorithm/algorithm_NEXT_normal.xml
+SHA1-Digest: CRS+iSZpAZHKGEiu+DzmpKOgolk=
+
+Name: numbers/etc/dts/attached0.dtscs
+SHA1-Digest: 863yOcD3/MtaFB3fVVLeVvFIFlo=
+
+Name: numbers/etc/dts/speaker_3
+SHA1-Digest: bQMpcBfCWXE9b7URWSnoTSfsXwI=
+
+Name: numbers/lib/libdts_hpx_service_c.so
+SHA1-Digest: Q8Qsrtcx38btCKlyD+5gWvSa0J8=
+
+Name: numbers/etc/audio/dts/dts_PLK_TL_normal.xml
+SHA1-Digest: thufmJqC9Ohil8XaMCcdDwMzML0=
+
+Name: numbers/etc/audio/dts/dts_CARRERA_UL_normal.xml
+SHA1-Digest: 3FKMMlIeHfe2etCOpiPeLoH8Yyg=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/sonophi
+ los_Profile/Sonophilos-Speakers/com.vipercn.viper4android_v2.speaker.xm
+ l
+SHA1-Digest: 8DIomArt5pcyJqLdrDsamuN4SOo=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/smeejay
+ tee_Profile/ViPER4Android/Profile/Feel_The_beatz/com.vipercn.viper4andr
+ oid_v2.headset.xml
+SHA1-Digest: s7OnTv8GnJC86GW5r6uqGYgojJU=
+
+Name: numbers/lib/libambisonic_audio_renderer.so
+SHA1-Digest: D7Pk1LMDGz1tgR3nzbULt2NL6EY=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/smeejay
+ tee_Profile/ViPER4Android/Profile/Feel_The_beatz/com.vipercn.viper4andr
+ oid_v2.usb.xml
+SHA1-Digest: vN5cb3yxuyPxaJ/3bCRgCvRnnmc=
+
+Name: numbers/etc/audio/codec/ascend_EDGEPUL_ce.xml
+SHA1-Digest: x9u+L6C5P/uT6wXbRM00Afi4PDY=
+
+Name: numbers/etc/srs/srsmodels.lic
+SHA1-Digest: jG/RgkGvtPMQ2yHz5WxIj1PadOU=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/smeejay
+ tee_Profile/ViPER4Android/Profile/Feel_The_Beatz_0.9.8.7v2/com.vipercn.
+ viper4android_v2.bluetooth.xml
+SHA1-Digest: sxPMl0qcD4pEj86XCEFjyVT1+W8=
+
+Name: numbers/lib/libharman.so
+SHA1-Digest: g2BiQ7mf3uzMi9FpEvQQY95JqUI=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Numbers_All_Around_Us/com.vipercn.viper
+ 4android_v2.usb.xml
+SHA1-Digest: vN5cb3yxuyPxaJ/3bCRgCvRnnmc=
+
+Name: numbers/etc/audio/algorithm/algorithm_OSCARVA_normal.xml
+SHA1-Digest: 35Dcytowi+WzBThTl+zJSWjTcrQ=
+
+Name: numbers/etc/dts/lineout_7
+SHA1-Digest: 1R4r6ce0zvEDb42XWSc+ERJpkoA=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_SOPHIACLG_normal.xml
+SHA1-Digest: Px0FgYX/6fmo7slyOjvvWdkH6sc=
+
+Name: numbers/etc/dts/bluetooth_1
+SHA1-Digest: 3tukhUrol3ZhJeqIElczf2axHAY=
+
+Name: numbers/etc/audio/dts/dts_NEXT_normal.xml
+SHA1-Digest: 24bhdCPMHO7aaJmEc5kXfIj73IY=
+
+Name: numbers/lib/libdts.so
+SHA1-Digest: PTDfTWsL6Xhjhv7djOCzEl3aO8c=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Atmos_The_Numbers/com.vipercn.viper4and
+ roid_v2.usb.xml
+SHA1-Digest: vN5cb3yxuyPxaJ/3bCRgCvRnnmc=
+
+Name: numbers/etc/audio/algorithm/algorithm_DAVINCE_CLG_normal.xml
+SHA1-Digest: u93iU9Z7GXdB1jp4ncoVdkH7Eto=
+
+Name: customize/app/armeabi/libV4AJniUtils.so
+SHA1-Digest: I6+mvt9HI2IaIMg747pEol0SYAU=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/jacobh2
+ 5_headset_Profile/com.vipercn.viper4android_v2.bluetooth.xml
+SHA1-Digest: Q3/XuCRgLN0GJ+0LqgDNeMT9MR8=
+
+Name: numbers/etc/audio/algorithm/algorithm_CARRERA_UL_normal.xml
+SHA1-Digest: HPrZuZtbq8cxWwqBYznWm8Ga41Q=
+
+Name: numbers/su.d/dts_configurator_wrapper
+SHA1-Digest: ibZzkkhg1QDew8bCrpTwtunvbgE=
+
+Name: customize/lib/lib64/libhwdaphal.so
+SHA1-Digest: va+la1gL3K8AR5/O1pIcJ4y8SYs=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Numbers_All_Around_Us/com.vipercn.viper
+ 4android_v2.bluetooth.xml
+SHA1-Digest: ITujgNjNDPfuyyoax+01X6H0PBY=
+
+Name: numbers/lib/libiauxusb.so
+SHA1-Digest: czJX6/Tdo+DLB8JMnuJDp5DTpcs=
+
+Name: numbers/etc/audio/algorithm/algorithm_GRACE_TUGL_normal.xml
+SHA1-Digest: yL3fMAuuduMNwy5/za1fstqzdZc=
+
+Name: numbers/etc/dts/srs_processing_movie.cfg
+SHA1-Digest: 3Ag/khm3b9xW3trh7lVFeeFD1eg=
+
+Name: extras/post-install user activities/_user_activities_instructions.
+ prop
+SHA1-Digest: +sH8Abs4P0xFhwMNwSSrtPwtJMM=
+
+Name: numbers/etc/dts/dts-eagle.lic
+SHA1-Digest: QUXoBrUxabATHTIzFKCxcbeyx+g=
+
+Name: numbers/etc/audio/algorithm/algorithm_GRACE_ES_normal.xml
+SHA1-Digest: Y0/riLVfWCM+bAmYEmo4jbMw3e8=
+
+Name: numbers/etc/dts/lineout0.dtscs
+SHA1-Digest: hfeIkQ+tyqIaAHlQpPj8xOIoq/c=
+
+Name: customize/lib/libhuaweiprocessing.so
+SHA1-Digest: C5AzcgE9PgALktaVQxrCoKgFyf8=
+
+Name: numbers/etc/dts/lineout_3
+SHA1-Digest: fIYpnKh2kp8ZioDR+2dMqyGaO2k=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Earthquake/instructions.txt
+SHA1-Digest: 82a1GMzHhBJ/JqBmLM469cREygM=
+
+Name: numbers/lib/libauaudioutils.so
+SHA1-Digest: EK01WwWrpHF8MZUl6TPeKH7eSQs=
+
+Name: numbers/lib/soundfx/libswdax.so
+SHA1-Digest: DCdCQFfipArc5NltUC/J9niJ8ys=
+
+Name: extras/post-install user activities/audio calibration database/_ac
+ db_instructions.txt
+SHA1-Digest: StAPjSDLhOkWuwMagYf2YeEdXco=
+
+Name: customize/lib64/libiauxsfx_64.so
+SHA1-Digest: 6n9lktLiFvYomtU2nQbfIIxuvso=
+
+Name: numbers/etc/audio/algorithm/algorithm_GRACE_CLG_normal.xml
+SHA1-Digest: yL3fMAuuduMNwy5/za1fstqzdZc=
+
+Name: numbers/lib/soundfx/libbbesonicmax.so
+SHA1-Digest: t0Ixok7pX37sOZLSaqtHiPu8Jw0=
+
+Name: numbers/lib/libiauxcodec.so
+SHA1-Digest: o80ZBYR0glgk7DyzSnBgWCRVFkc=
+
+Name: customize/etc/drc/drc_cfg_5.1.txt
+SHA1-Digest: AahtHIvZEjzPdjYgAxyAD2JLVLM=
+
+Name: numbers/lib/libausndfile.so
+SHA1-Digest: oWlKY4C4OYDYCEO4Avxo8lVMtBA=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_EDGEPUL_normal.xml
+SHA1-Digest: PidpQ5+8+m+0eYi0wWEo/OuoCJg=
+
+Name: numbers/etc/audio/algorithm/algorithm_GEMINI_normal.xml
+SHA1-Digest: u93iU9Z7GXdB1jp4ncoVdkH7Eto=
+
+Name: numbers/lib/libdlbdapstorage.so
+SHA1-Digest: jN8B+n0/swKBNQO9untAbMJx1TM=
+
+Name: numbers/etc/audio/codec/ascend_EDGEPUG_normal.xml
+SHA1-Digest: g+QE0hZmJXwACi7ZU0WN1VzOiLA=
+
+Name: numbers/lib/libdts-dcc-jni-v2.so
+SHA1-Digest: fN1bSQhgdLOntyobLtvwqa9ylm8=
+
+Name: numbers/etc/audio/dts/dts_DAVINCE_CLG_normal.xml
+SHA1-Digest: Xq9r+UoTGVipv+q3tfO5dp9MPJs=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Atmos_The_Numbers/com.vipercn.viper4and
+ roid_v2.bluetooth.xml
+SHA1-Digest: ITujgNjNDPfuyyoax+01X6H0PBY=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_GRACE_ES_normal.xml
+SHA1-Digest: IS0yKKgBlzwbT7YGJLpcgAkV8Bc=
+
+Name: numbers/lib/libavcodec-57.so
+SHA1-Digest: cRtChxZF6oz/yjq9/XGndjs2pCM=
+
+Name: numbers/etc/audio/dts/dts_GRACE_CLG_normal.xml
+SHA1-Digest: pDnugmrWKqUoo/5KCR5EfbqbF9Y=
+
+Name: numbers/etc/audio/algorithm/algorithm_PLK_CL_normal.xml
+SHA1-Digest: yL3fMAuuduMNwy5/za1fstqzdZc=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_9mm/com.vipercn.viper4android_v2.blueto
+ oth.xml
+SHA1-Digest: ITujgNjNDPfuyyoax+01X6H0PBY=
+
+Name: numbers/etc/audio/codec/ascend_OSCAR_normal.xml
+SHA1-Digest: nIAy7nFDRDym6HZSL+JNBNNMVM4=
+
+Name: customize/lib64/libneutronmp.so
+SHA1-Digest: mW0kUdVq3d/P6UukDxby+lfmf2M=
+
+Name: numbers/lib/libDoreso.so
+SHA1-Digest: +4hjzafS3Pe8+Pwt5csY1aTosT0=
+
+Name: numbers/etc/dolby/dax-default.xml
+SHA1-Digest: CMw4rRXeMAv3fjTyYdLMdxbZvjg=
+
+Name: numbers/etc/audio/algorithm/algorithm_MOZART_normal.xml
+SHA1-Digest: yL3fMAuuduMNwy5/za1fstqzdZc=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/sonophi
+ los_Profile/Sonophilos-Headphones/com.vipercn.viper4android_v2.bluetoot
+ h.xml
+SHA1-Digest: Q3/XuCRgLN0GJ+0LqgDNeMT9MR8=
+
+Name: numbers/lib/libMAM2-wavesfx-Coretex_A9.so
+SHA1-Digest: qIrqF0jFj8soXExKwge4LqE9kHI=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/sonophi
+ los_Profile/Sonophilos-Headphones/com.vipercn.viper4android_v2.usb.xml
+SHA1-Digest: /MtdA0zb+RnYAfxF8KDT4skPCSk=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Freefall/com.vipercn.viper4android_v2.h
+ eadset.xml
+SHA1-Digest: 0l/1FQm+zMXjhYgnWniw/T6bRDw=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Freefall/Roi007_Breath_It_In2.zip
+SHA1-Digest: W5cZiXF/TSE5DmlZO1prcXIGyZI=
+
+Name: numbers/etc/audio/codec/ascend_OSCARTL_normal.xml
+SHA1-Digest: nIAy7nFDRDym6HZSL+JNBNNMVM4=
+
+Name: numbers/etc/dts/tuning_configs
+SHA1-Digest: HOnZueQg6ydpea5q414BIg1zkAI=
+
+Name: customize/vendor/lib/soundfx/libqcvirt.so
+SHA1-Digest: VdefAsb+k7p+tkZABLkLhjapbKE=
+
+Name: numbers/lib/soundfx/libeagle.so
+SHA1-Digest: OUXcQZlQq14XfgtdlWriHsVs4vU=
+
+Name: numbers/etc/dts/srs_processing_music.cfg
+SHA1-Digest: nfNth42NviWF8Jr0oZBgGPq3GUA=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/_v4a_pr
+ ofile_instructions.prop
+SHA1-Digest: OwyMA2MTCjy4yj6mOIDxkUNhwoA=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Atmos_All_Round_Numbers/com.vipercn.vip
+ er4android_v2.speaker.xml
+SHA1-Digest: /y5wi4nfO7inBeNNNOZjmTRBvC4=
+
+Name: customize/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
+SHA1-Digest: pFWmYOjMgrJFpA9GGWwxyT9iqf4=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Dat_Bass/com.vipercn.viper4android_v2.u
+ sb.xml
+SHA1-Digest: vN5cb3yxuyPxaJ/3bCRgCvRnnmc=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/smeejay
+ tee_Profile/ViPER4Android/Profile/Feel_The_Beatz_0.9.8.7v2/com.vipercn.
+ viper4android_v2.usb.xml
+SHA1-Digest: vN5cb3yxuyPxaJ/3bCRgCvRnnmc=
+
+Name: numbers/lib/soundfx/libicepower.so
+SHA1-Digest: Ablg3ojWuuNFN6P8xCKuy6bFNEk=
+
+Name: numbers/etc/audio/dts/dts_hi3635cs_normal.xml
+SHA1-Digest: 9G07aLDNtS9oM7a+MmcUsLbWLlk=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Dat_Bass/com.vipercn.viper4android_v2.b
+ luetooth.xml
+SHA1-Digest: ITujgNjNDPfuyyoax+01X6H0PBY=
+
+Name: numbers/etc/dts/dts.lic
+SHA1-Digest: oMO9rgI9RgtJskUHak8mDh1Y7OE=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Numbers_All_Around_Us/com.vipercn.viper
+ 4android_v2.speaker.xml
+SHA1-Digest: /y5wi4nfO7inBeNNNOZjmTRBvC4=
+
+Name: extras/post-install user activities/bonus/smeejaytee's_arise_toolb
+ ox_v2.zip
+SHA1-Digest: BGQGANZNiIQtlJ+OmFJBik8+XII=
+
+Name: numbers/lib/soundfx/libsonypostprocbundle.so
+SHA1-Digest: FrqZr0Mbkuk3SPc0szoLKfJYnPw=
+
+Name: numbers/etc/audio/algorithm/algorithm_GRACE_UL_normal.xml
+SHA1-Digest: yL3fMAuuduMNwy5/za1fstqzdZc=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/sonophi
+ los_Profile/Sonophilos-Speakers/com.vipercn.viper4android_v2.bluetooth.
+ xml
+SHA1-Digest: Q3/XuCRgLN0GJ+0LqgDNeMT9MR8=
+
+Name: numbers/lib/libgnustl_shared.so
+SHA1-Digest: xX6Cx817Xu3Zo3CEoGQbJfLCioU=
+
+Name: numbers/lib/libiauxmpeg_64.so
+SHA1-Digest: OecqGHHPdKSFHChzlwosqqgG83g=
+
+Name: numbers/etc/dts/bluetooth_0
+SHA1-Digest: EpZuU/uFWLVyeQhenCv2PIHPk5c=
+
+Name: numbers/etc/audio/algorithm/algorithm_LITTLEBOY_normal.xml
+SHA1-Digest: osL50nC9KteotQBB8yGHtcEmPh8=
+
+Name: numbers/etc/audio/dts/dts_DAVINCE_normal.xml
+SHA1-Digest: Xq9r+UoTGVipv+q3tfO5dp9MPJs=
+
+Name: numbers/ARISE_Version.prop
+SHA1-Digest: nVwiERP/XkFblVOQkDp0y99n1mU=
+
+Name: numbers/lib/soundfx/libmaxxeffect-cembedded.so
+SHA1-Digest: eGfSEP7s5eSzcsPCn7vN3zc1Zas=
+
+Name: numbers/etc/audio/dts/dts_FRD_normal.xml
+SHA1-Digest: Xddl99ZA5kUIkyEfmbqrkv3+BGE=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Breath_It_In/com.vipercn.viper4android_
+ v2.speaker.xml
+SHA1-Digest: /y5wi4nfO7inBeNNNOZjmTRBvC4=
+
+Name: numbers/etc/dts/srs_processing_gaming.cfg
+SHA1-Digest: Xb2weq6YDtSmKrKujNdBxZtR060=
+
+Name: numbers/etc/audio/dts/dts_CARRERA_CLG_normal.xml
+SHA1-Digest: 3FKMMlIeHfe2etCOpiPeLoH8Yyg=
+
+Name: numbers/etc/audio/dts/dts_LISZT_normal.xml
+SHA1-Digest: J9UvQC+OSETNvLgtSH4i8O5RTY0=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_HONORUL_normal.xml
+SHA1-Digest: yPXRYMegyokwb9v4SJ2jvSTMd3w=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Breath_The_Numbers/com.vipercn.viper4an
+ droid_v2.headset.xml
+SHA1-Digest: lYWL7EyJZqEkKk7a5SPg5aqflnQ=
+
+Name: customize/lib/libsonydseehxwrapper.so
+SHA1-Digest: NxEOynql5WmOnar8FN4gb5GKjEM=
+
+Name: numbers/etc/audio/dts/dts_GRACE_TUGL_normal.xml
+SHA1-Digest: pDnugmrWKqUoo/5KCR5EfbqbF9Y=
+
+Name: numbers/etc/dts/speaker_1
+SHA1-Digest: U5akFoxy9njyfyQmxZbm8xOXE44=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Freefall/com.vipercn.viper4android_v2.b
+ luetooth.xml
+SHA1-Digest: ITujgNjNDPfuyyoax+01X6H0PBY=
+
+Name: numbers/etc/dts/attached1.dtscs
+SHA1-Digest: KRo0l5eWhFS2lT8bcfufKP8K/9c=
+
+Name: numbers/etc/audio/algorithm/algorithm_HONORTL_normal.xml
+SHA1-Digest: J1FH5NqZ3K6VjWiDPS00VsLqu6A=
+
+Name: customize/_customize_information.prop
+SHA1-Digest: 6Dcxnmm0gArh/Knu6B61SIqcpdI=
+
+Name: numbers/etc/audio/dts/ascend_dts_algo_GRACE_TUGL_normal.xml
+SHA1-Digest: IS0yKKgBlzwbT7YGJLpcgAkV8Bc=
+
+Name: extras/post-install user activities/ViPER4Android Profiles/Roi007l
+ eaf_Profiles/Profile/Roi007leaf_Earthquake/com.vipercn.viper4android_v2
+ .speaker.xml
+SHA1-Digest: l+1Bvzapw/4K1NnAZSkM4VtJNeI=
+
+Name: numbers/etc/audio/codec/ascend_HONORTL_ce.xml
+SHA1-Digest: tSXpbJzMWOzNvErSRUJo59zhvwI=
+
+Name: numbers/etc/audio/algorithm/algorithm_GRACEES_normal.xml
+SHA1-Digest: yL3fMAuuduMNwy5/za1fstqzdZc=
+

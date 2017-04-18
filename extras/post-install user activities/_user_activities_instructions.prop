@@ -1,0 +1,13 @@
+##                              ##
+#      ARISE Sound Systems™      #
+#                                #
+#  post-install user activities  #
+#                                #
+#        @XDA Developers         #
+#                                #
+
+
+
+The /post-install user activities folder stores the collection of additional resources provided to further enhance the sound system after its installation. All necessary tools and information to allow and prepare the user to tailor the sound system are provided and will evolve so it is recommended to examine this location in every sound system zip.
+
+These activities are always optional, but the setprop activity and information is strongly recommended to utilize or at least obtain a full understanding of the activity.

@@ -1,0 +1,63 @@
+#!/system/bin/sh
+#
+# ARISE Sound Systems™
+#
+# dts_configurator_wrapper
+
+
+
+## !!! MODIFIED FILE ALERT !!! ##
+
+# This file has been modified by guitardedhero for usage with ARISE Sound Systems™ sound systems.
+
+## !!! MODIFIED FILE ALERT !!! ##
+
+
+
+mount -o rw,remount /system
+mount -o rw,remount /data
+mkdir -p /data/dts
+chmod 755 /data/dts
+
+src_dir="/system/etc/dts/"
+dest_dir="/data/dts/"
+
+check_file="attached0.dtscs"
+cp $src_dir$check_file $dest_dir$check_file
+chmod 644 $dest_dir$check_file
+
+check_file="attached1.dtscs"
+cp $src_dir$check_file $dest_dir$check_file
+chmod 644 $dest_dir$check_file
+
+check_file="bluetooth0.dtscs"
+cp $src_dir$check_file $dest_dir$check_file
+chmod 644 $dest_dir$check_file
+
+check_file="combo0.dtscs"
+cp $src_dir$check_file $dest_dir$check_file
+chmod 644 $dest_dir$check_file
+
+check_file="lineout0.dtscs"
+cp $src_dir$check_file $dest_dir$check_file
+chmod 644 $dest_dir$check_file
+
+check_file="other.dtscs"
+cp $src_dir$check_file $dest_dir$check_file
+chmod 644 $dest_dir$check_file
+
+check_file="configurator.cfg"
+cp $src_dir$check_file $dest_dir$check_file
+chmod 644 $dest_dir$check_file
+
+check_file="eagle-lic.key"
+cp $src_dir$check_file $dest_dir$check_file
+chmod 644 $dest_dir$check_file
+
+check_file="m6-lic.key"
+cp $src_dir$check_file $dest_dir$check_file
+chmod 644 $dest_dir$check_file
+
+dts_configurator 
+
+mount -o ro,remount /system

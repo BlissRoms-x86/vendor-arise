@@ -1,0 +1,108 @@
+#!/system/bin/sh
+#                                      #
+#         ARISE Sound Systems™         #
+#                                      #
+#               Numbers™               #
+#                                      #
+#          arisesound_setprop          #
+#                                      #
+#           @XDA Developers            #
+#                                      #
+
+## Asus™ Zenfone 3 Audio ##
+
+#
+setprop audio.offload.pcm.16bit.enable true
+setprop audio.offload.pcm.24bit.enable true
+setprop audio.offload.track.enabled true
+setprop persist.audio.hifi.int_codec true
+setprop audio.safx.pbe.enabled true
+setprop audio.pp.asphere.enabled false
+
+## LeTv LeMax 2 Dolby Atmos™ ##
+
+#
+setprop dmid 3067269873
+setprop audio.ds1.metainfo.key 273
+setprop audio.dolby.ds2.enabled true
+setprop audio.dolby.ds2.hardbypass true
+setprop dolby.ds.dialogenhancer.state off
+setprop dolby.ds.graphiceq.state on
+setprop dolby.ds.intelligenteq.state on
+setprop dolby.ds.intelligenteq.preset ieq_open
+setprop dolby.ds.profile.name Music
+setprop dolby.ds.state on
+setprop dolby.ds.virt.bluetooth on
+setprop dolby.ds.virt.hdmi on
+setprop dolby.ds.virt.headphone_port on
+setprop dolby.ds.virt.internal_speaker on
+setprop dolby.ds.virt.miracast on
+setprop dolby.ds.virt.usb on
+setprop dolby.ds.volumeleveler.state off
+#
+
+## Lenovo™ K3 Note MaxxAudio™ ##
+
+#
+setprop ro.lenovo.soundeffect maxxaudio
+setprop audiofx.global.enable 1
+setprop audiofx.global.dts.enable 1
+setprop audiofx.eq.preset 10
+setprop audiofx.bass.enable 1
+setprop audiofx.bass.strength 90
+setprop audiofx.treble.enable 1
+setprop audiofx.treble.strength 70
+setprop audiofx.virtualizer.enable 1
+setprop audiofx.virtualizer.strength 60
+setprop audiofx.maxxvolume.enable 1
+#Hi-Res option for PowerAmp
+setprop ro.lenovo.hifi_support true
+#
+
+## Huawei™ MediaPad M2 ##
+
+#
+setprop ro.config.hw_dts true
+setprop ro.config.hw_dolby true
+#
+
+## Huawei™ P9 DTS™ ##
+
+#
+setprop ro.config.hw_dts true
+setprop use.dts_m6 true
+setprop use.dts_m6_notify true
+setprop use.dts_eagle true
+#
+
+## Vivo™ XPlay 3S DTS™ Audio ##
+
+#
+setprop persist.vivo.phone.hifi Have_hifi
+#
+
+## Sony™ LDAC ##
+
+#
+setprop ro.somc.ldac.audio.supported true
+setprop persist.service.ldac.enable 1
+setprop com.sonymobile.ldac_enabled true
+#
+
+## Miscellaneous Audio ##
+
+#
+setprop tunnel.decode false
+setprop lpa.decode false
+setprop lpa.releaselock false
+setprop lpa.use-stagefright false
+setprop net.bt.name Numbers
+#
+
+LOG_FILE=/data/local/arisesound_setprop_run.log;
+
+if [ -e /data/local/arisesound_setprop_run.log ]; then
+    rm /data/local/arisesound_setprop_run.log
+fi
+
+echo "arisesound_setprop has run successfully $(date +"%m-%d-%Y %H:%M:%S")" | tee -a $LOG_FILE;

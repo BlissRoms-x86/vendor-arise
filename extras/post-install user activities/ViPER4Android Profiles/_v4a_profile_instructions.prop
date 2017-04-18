@@ -1,0 +1,33 @@
+##                               ##
+#      ARISE Sound Systems™       #
+#                                 #
+#          V4A Profiles           #
+#                                 #
+#         XDA Developers          #
+#                                 #
+
+
+
+ViPER4Android Profiles are folders by any name that contain XML files of the saved output settings preferences and must be placed in the working /ViPER4Android/Profile directory.
+
+The working /ViPER4Android directory will vary from device and OS.
+
+The working /ViPER4Android directory is easiest found by saving any open ViPER4Android tab as a New Effect Profile named HERE.
+
+Look in these possible directories until you find /ViPER4Android/Profile/HERE:
+
+/data/media/0
+/data/media/legacy
+/mnt/runtime/write/emulated/0
+/mnt/runtime/write/emulated/legacy
+/sdcard
+/sdcard/0
+/storage/emulated/0
+/storage/emulated/legacy
+
+Once /ViPER4Android/Profile/HERE is found, the working ViPERrandroid directory is found and is the directory to be used for any manual file system operations the user wishes to perform like adding or deleting a profile folder in */ViPER4Android/Profile/.
+
+Impulse Response Samples are bits of audio used in the Convolver function of ViPER4Android and are individual .irs or .wav files that must be placed in the working /ViPER4Android/Kernel directory. Unlike the format of ViPER4Android profiles, these .irs or .wav impulse responses must be directly placed in */ViPER4Android/Kernel/, a location where no other folder should exist if the user decides those contents to be accessible by ViPER4Android's Convolver function.
+
+Expert UI Setting should be selected from ViPER4Android's menu before enabling Convolver and selecting an impulse response sample.
+

@@ -1,0 +1,51 @@
+##                                 ##
+#       ARISE Sound Systems™        #
+#                                   #
+#        arisesound_setprop         #
+#                                   #
+#         @XDA Developers           #
+#                                   #
+
+
+
+The /extras/setprop folder holds one or more setprop files that execute during boot when placed in /system/su.d with 0755 permissions. It is recommended to "Enable SU during boot" in SuperSU's settings and, of course, SuperSU is required for this activity. When executed, the setprop script will add or modify build property lines until a device reboot to local.prop instead of permanent lines in /system/build.prop. This has the same effect as modifying /system/build.prop, but is less obtrusive and allows the user to boot to TWRP, in the case of a bootloop, and do the following:
+
+    Mount > System
+    Advanced > File Manager
+    Navigate to /system/su.d
+    Tap the recently placed setprop file
+    Tap Delete and swipe to confirm the deletion
+    Mount > uncheck System
+    Reboot
+
+This is an easier maneuver than searching for a backup of /system/build.prop that was created at an earlier time, copy it over the bootloop-causing /system/build.prop, set 0644 permissions, and reboot. This is why /system/su.d is the recommended location to place a setprop by any name with 0755 permissions and not /su/su.d, as /su is inaccessible via TWRP'S File Manager.
+
+The Numbers™ sound system will automatically install arisesound_setprop, (the same one in /extras/setprop which is only there for easy reference), during the Numbers™ sound system installation. However, at the very end of the installation, the installation script will search for /sdcard/arisesound_setprop and, if found, copy it over the default arisesound_setprop. This operation indicates that the user has decided to use a setprop other than what is provided by the sound system by default.
+
+If an automatic installation of a custom setprop is preferred, the setprop must be directly in /sdcard and named arisesound_setprop resulting in /sdcard/arisesound_setprop. Again, this is only necessary if the user prefers the installation script to handle the entire custom setprop operation.
+
+When a custom setprop is manually performed by the user, the setprop can be placed in /system/su.d with any name and 0755 permissions. It is important to ensure only one setprop is in this location so delete any other if existing after placing the preferred custom setprop.
+
+Finally, setprop will only execute if in a proper script format beginning with a "she bang" header:
+
+#!/system/bin/sh
+
+Comments to describe or provide information should always begin with "#". A line that extends wider than a device's screen will always be viewed as a single line until Enter on the keyboard is pressed, ending the previous line and creating the next line, even though it may look like multiple lines exist on the screen by the time Enter is pressed. Only a single # is necessary at the beginning of this "comment line" and can be confirmed by viewing in landscape unless the single comment is a very, very long single comment line which extends further than the width of the device's screen even in landscape.
+
+The third and final component is the command section of the script. The setprop script begins with the command, "setprop" if following, at any point, a "she bang" header:
+
+#!/system/bin/sh
+
+Following the setprop command is a space ( ) to indicate that the command is decided and ready to accept an "argument", which is essentially just data or content that is in a compatible form to be used by the particular command and space ( ) immediately before the argument. The setprop argument is very similar to the /system/build.prop lines when viewed as text. The only difference is that setprop follows the format of getprop, using a space ( ) in place of the equals sign (=) that is likely more familiar to most and almost always what is found when researching build property lines online.
+
+To convert a resourced build property line to a single setprop script line using the necessary command and argument is shown below:
+
+Typical build property format found online:
+
+qemu.hw.mainkeys=0
+
+Format to be used for the setprop command/script:
+
+#!/system/bin/sh (only once at the very top)
+setprop qemu.hw.mainkeys 0
+
