@@ -21,3 +21,5 @@ guitardedhero, Roi007leaf, wrongway213, sonophilos, churapa, docnok63, Paschfire
 
 Vendor method adapted by:
 electrikjesus
+
+Source Link: https://forum.xda-developers.com/android/software/r-s-e-sound-systems-auditory-research-t3379709
